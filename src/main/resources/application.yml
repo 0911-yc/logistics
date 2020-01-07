@@ -42,9 +42,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: 123456
+    password: Kcs520Yc.
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test
+    url: jdbc:mysql://139.224.192.190:3306/test
 
     #Druid连接池配置
     druid:
