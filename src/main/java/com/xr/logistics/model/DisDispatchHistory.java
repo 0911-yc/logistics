@@ -1,12 +1,14 @@
 package com.xr.logistics.model;
 
 
+
 import java.io.Serializable;
 import java.util.Date;
 
 public class DisDispatchHistory implements Serializable {
 
   private static final long serialVersionUID = 1451535067576265104L;
+
   private Integer id;
   private Integer dispatchSequence;
   private Integer transferredUnit;

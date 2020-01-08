@@ -1,6 +1,7 @@
 package com.xr.logistics.model;
 
 
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -17,7 +18,6 @@ public class BiglogLogisticsControlTable implements Serializable {
   private Date inputDate;//录入时间
   private Integer inputCompany;//录入单位
   private String stats;//状态  0：正常，1：停用
-
 
   public Integer getId() {
     return id;

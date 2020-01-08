@@ -1,6 +1,5 @@
 package com.xr.logistics.model;
 
-
 import java.io.Serializable;
 import java.util.Date;
 

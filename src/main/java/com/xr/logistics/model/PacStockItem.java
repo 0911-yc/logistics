@@ -1,6 +1,5 @@
 package com.xr.logistics.model;
 
-
 import java.io.Serializable;
 
 public class PacStockItem implements Serializable {
@@ -16,7 +15,6 @@ public class PacStockItem implements Serializable {
   private String specifications;//规格
   private String type;//类型
   private String status;//状态  0.正常、1.作废
-
 
   public Integer getId() {
     return id;

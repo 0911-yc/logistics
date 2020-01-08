@@ -1,6 +1,7 @@
 package com.xr.logistics.model;
 
 
+
 import java.io.Serializable;
 
 public class AccDocumentsState implements Serializable {

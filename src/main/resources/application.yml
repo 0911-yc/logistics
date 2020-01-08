@@ -17,11 +17,12 @@ mybatis:
 #配置访问html
 spring:
   resources:
-    static-locations: classpath:/templates
+    static-locations: classpath:/static/
+
 
   #thymeleaf模板引擎
   thymeleaf:
-    prefix: classpath:/templates/
+    prefix: classpath:/templates
     suffix: .html
     servlet:
       content-type: text/html
@@ -44,7 +45,7 @@ spring:
     username: root
     password: Kcs520Yc.
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://139.224.192.190:3306/test
+    url: jdbc:mysql://139.224.192.190:3306/logistics
 
     #Druid连接池配置
     druid:

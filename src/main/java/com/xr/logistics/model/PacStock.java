@@ -1,6 +1,7 @@
 package com.xr.logistics.model;
 
 
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -17,7 +18,6 @@ public class PacStock implements Serializable {
   private Integer produceTypeId;//
   private String stats;//状态  0：正常，1：停用
   private String remark;//备注
-
 
   public String getWarehouseNo() {
     return warehouseNo;
