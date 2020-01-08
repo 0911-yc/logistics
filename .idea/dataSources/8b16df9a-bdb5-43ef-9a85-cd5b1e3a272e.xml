@@ -1,0 +1,5441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ha">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>5.7.28</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="logistics">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="7" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="8" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="10" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="229" parent="3" name="ACC_BusinessAdmissibility">
+      <Comment>业务受理表</Comment>
+    </table>
+    <table id="230" parent="3" name="ACC_DataState">
+      <Comment>数据状态表</Comment>
+    </table>
+    <table id="231" parent="3" name="ACC_DocumentsState">
+      <Comment>单据状态表</Comment>
+    </table>
+    <table id="232" parent="3" name="ACC_ProductList">
+      <Comment>产品表</Comment>
+    </table>
+    <table id="233" parent="3" name="ACC_ProductType">
+      <Comment>产品类别表</Comment>
+    </table>
+    <table id="234" parent="3" name="ACC_WorkOrder">
+      <Comment>工单表</Comment>
+    </table>
+    <table id="235" parent="3" name="ACC_WorkSheet">
+      <Comment>工作单表</Comment>
+    </table>
+    <table id="236" parent="3" name="BAS_Area">
+      <Comment>区域设置表</Comment>
+    </table>
+    <table id="237" parent="3" name="BAS_AssociateMember">
+      <Comment>关联小件员表</Comment>
+    </table>
+    <table id="238" parent="3" name="BAS_AssociatedAddress">
+      <Comment>关联地址表</Comment>
+    </table>
+    <table id="239" parent="3" name="BAS_BasicArchives">
+      <Comment>基础档案表（BAS_BasicArchives）</Comment>
+    </table>
+    <table id="240" parent="3" name="BAS_BasicArchivesEntry">
+      <Comment>基础档案条目表</Comment>
+    </table>
+    <table id="241" parent="3" name="BAS_DeliveryStandard">
+      <Comment>收派标准表</Comment>
+    </table>
+    <table id="242" parent="3" name="BAS_Partition">
+      <Comment>分区表</Comment>
+    </table>
+    <table id="243" parent="3" name="BAS_ShuttleBus">
+      <Comment>班车设置表</Comment>
+    </table>
+    <table id="244" parent="3" name="BAS_StandarTime">
+      <Comment>收派时间表</Comment>
+    </table>
+    <table id="245" parent="3" name="BAS_Substitute">
+      <Comment>取派设置表</Comment>
+    </table>
+    <table id="246" parent="3" name="BAS_ZoneCustomInfo">
+      <Comment>定区客户信息表</Comment>
+    </table>
+    <table id="247" parent="3" name="BAS_ZoneInfo">
+      <Comment>定区信息表</Comment>
+    </table>
+    <table id="248" parent="3" name="BIGLOG_LogisticsControlTable">
+      <Comment>物流对照表</Comment>
+    </table>
+    <table id="249" parent="3" name="DIS_DispatchHistory">
+      <Comment>调度表</Comment>
+    </table>
+    <table id="250" parent="3" name="DIS_PropagandaTask">
+      <Comment>宣传表</Comment>
+    </table>
+    <table id="251" parent="3" name="DIS_WorkOrderSign">
+      <Comment>工作单签收表</Comment>
+    </table>
+    <table id="252" parent="3" name="IAE_Arrival">
+      <Comment>进港表</Comment>
+    </table>
+    <table id="253" parent="3" name="IAE_Departure">
+      <Comment>单货异常监控表</Comment>
+    </table>
+    <table id="254" parent="3" name="IAE_Extract">
+      <Comment>提货表</Comment>
+    </table>
+    <table id="255" parent="3" name="IAE_LineResource">
+      <Comment>配载线路资源表</Comment>
+    </table>
+    <table id="256" parent="3" name="IAE_TimeInput">
+      <Comment>到达时间录入表</Comment>
+    </table>
+    <table id="257" parent="3" name="LOG_Logistics">
+      <Comment>物流详情表</Comment>
+    </table>
+    <table id="258" parent="3" name="LOG_LogisticsDetails">
+      <Comment>物流详情表</Comment>
+    </table>
+    <table id="259" parent="3" name="LOG_LogisticsTransfer">
+      <Comment>物流（交接单）查询</Comment>
+    </table>
+    <table id="260" parent="3" name="LOG_Track">
+      <Comment>跟踪表</Comment>
+    </table>
+    <table id="261" parent="3" name="PAC_OutboundType">
+      <Comment>包装材料出库类型表</Comment>
+    </table>
+    <table id="262" parent="3" name="PAC_Packaging">
+      <Comment>包装材料表</Comment>
+    </table>
+    <table id="263" parent="3" name="PAC_PackagingMateriarOutboundFrom">
+      <Comment>包装材料出库表</Comment>
+    </table>
+    <table id="264" parent="3" name="PAC_Stock">
+      <Comment>库存表</Comment>
+    </table>
+    <table id="265" parent="3" name="PAC_StockItem">
+      <Comment>库存明细表</Comment>
+    </table>
+    <table id="266" parent="3" name="RET_ReturnList">
+      <Comment>返货单表</Comment>
+    </table>
+    <table id="267" parent="3" name="SOR_Abnormal">
+      <Comment>单货异常监控表</Comment>
+    </table>
+    <table id="268" parent="3" name="SOR_CheckBound">
+      <Comment>盘库表</Comment>
+    </table>
+    <table id="269" parent="3" name="SOR_CheckBoundDetails">
+      <Comment>盘库详细表</Comment>
+    </table>
+    <table id="270" parent="3" name="SOR_OutBound">
+      <Comment>出库表</Comment>
+    </table>
+    <table id="271" parent="3" name="SOR_OutBoundDetails">
+      <Comment>出库详情表</Comment>
+    </table>
+    <table id="272" parent="3" name="SOR_Package">
+      <Comment>合包表</Comment>
+    </table>
+    <table id="273" parent="3" name="SOR_PackageDetails">
+      <Comment>合包明细表</Comment>
+    </table>
+    <table id="274" parent="3" name="SOR_Storage">
+      <Comment>入库表</Comment>
+    </table>
+    <table id="275" parent="3" name="SOR_StorageDetails">
+      <Comment>入库详情表</Comment>
+    </table>
+    <table id="276" parent="3" name="SY_Emp">
+      <Comment>员工表</Comment>
+    </table>
+    <table id="277" parent="3" name="SY_Menus">
+      <Comment>角色栏目表(权限表)</Comment>
+    </table>
+    <table id="278" parent="3" name="SY_Roles">
+      <Comment>角色表</Comment>
+    </table>
+    <table id="279" parent="3" name="SY_RolesMenus">
+      <Comment>角色权限表</Comment>
+    </table>
+    <table id="280" parent="3" name="SY_Units">
+      <Comment>员工单位表 用户单位表</Comment>
+    </table>
+    <column id="281" parent="229" name="BusinessNoticeNo">
+      <Position>1</Position>
+      <Comment>业务通知单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="229" name="ReservationTime">
+      <Position>2</Position>
+      <Comment>预约收件时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="229" name="CustomName">
+      <Position>3</Position>
+      <Comment>客户名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="229" name="PickupAddress">
+      <Position>4</Position>
+      <Comment>取件地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="229" name="CustomCode">
+      <Position>5</Position>
+      <Comment>客户编号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="229" name="Linkman">
+      <Position>6</Position>
+      <Comment>联系人</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="229" name="TelPhone">
+      <Position>7</Position>
+      <Comment>电话</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="229" name="Weight">
+      <Position>8</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="229" name="Volume">
+      <Position>9</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="229" name="ImportantHints">
+      <Position>10</Position>
+      <Comment>重要提示</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="229" name="ArriveCity">
+      <Position>11</Position>
+      <Comment>到达城市</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="229" name="PickerInfo">
+      <Position>12</Position>
+      <Comment>取货人员信息	外键，对应到员工表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="229" name="SendAddress">
+      <Position>13</Position>
+      <Comment>派送地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="229" name="ProcessingUnit">
+      <Position>14</Position>
+      <Comment>处理单位	外键，对应到单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="229" name="NotificationSource">
+      <Position>15</Position>
+      <Comment>通知单来源</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="229" name="CustomNoModifyFlag">
+      <Position>16</Position>
+      <Comment>客户单号修改标志</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="229" name="SingleType">
+      <Position>17</Position>
+      <Comment>分单类型</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="229" name="PackagesNum">
+      <Position>18</Position>
+      <Comment>件数</Comment>
+      <DataType>int(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="229" name="ActualWeight">
+      <Position>19</Position>
+      <Comment>实际重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="229" name="BillingWeight">
+      <Position>20</Position>
+      <Comment>计费重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="229" name="PackingFee">
+      <Position>21</Position>
+      <Comment>包装费</Comment>
+      <DataType>decimal(8,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="229" name="ActualPacking">
+      <Position>22</Position>
+      <Comment>实际包装	1.木箱、2.纸箱</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="229" name="ProductTypeId">
+      <Position>23</Position>
+      <Comment>产品类别</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="229" name="ProcueId">
+      <Position>24</Position>
+      <Comment>外键产品表</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="229" name="Comment">
+      <Position>25</Position>
+      <Comment>备用字段</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="306" parent="229" name="FK_Reference_38">
+      <ColNames>PickerInfo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="307" parent="229" name="FK_Reference_55">
+      <ColNames>ProcessingUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="308" parent="229" name="FK_Reference_57">
+      <ColNames>ProductTypeId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="309" parent="229" name="FK_Reference_56">
+      <ColNames>ProcueId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="310" parent="229" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BusinessNoticeNo</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="311" parent="229" name="FK_Reference_38">
+      <ColNames>PickerInfo</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="312" parent="229" name="FK_Reference_55">
+      <ColNames>ProcessingUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="313" parent="229" name="FK_Reference_57">
+      <ColNames>ProductTypeId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_ProductType</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="314" parent="229" name="FK_Reference_56">
+      <ColNames>ProcueId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_ProductList</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="315" parent="230" name="Id">
+      <Position>1</Position>
+      <Comment>主键序列</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="230" name="DataState">
+      <Position>2</Position>
+      <Comment>数据状态</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="317" parent="230" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="318" parent="231" name="Id">
+      <Position>1</Position>
+      <Comment>主键序列</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="231" name="DocumentsState">
+      <Position>2</Position>
+      <Comment>单据状态</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="320" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="321" parent="232" name="Id">
+      <Position>1</Position>
+      <Comment>主键序列</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="232" name="ProduceName">
+      <Position>2</Position>
+      <Comment>产品名</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="323" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="324" parent="233" name="Id">
+      <Position>1</Position>
+      <Comment>主键序列</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="233" name="ProduceType">
+      <Position>2</Position>
+      <Comment>产品类别</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="326" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="327" parent="234" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="234" name="JobNo">
+      <Position>2</Position>
+      <Comment>工单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="234" name="JobType">
+      <Position>3</Position>
+      <Comment>工单类型	1:新,2:追,3:销</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="234" name="PickupStatus">
+      <Position>4</Position>
+      <Comment>取件状态	1:新单,2:已通知,3:已确认&#xd;
+            4:已取件,5:已取消</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="234" name="ShortMessageInt">
+      <Position>5</Position>
+      <Comment>短信序号</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="234" name="WorkGenerationTime">
+      <Position>6</Position>
+      <Comment>工单生成时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="234" name="AfterSingleNum">
+      <Position>7</Position>
+      <Comment>追单次数	新单默认为0</Comment>
+      <DataType>int(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="234" name="SmallMemberNum">
+      <Position>8</Position>
+      <Comment>小件员编号</Comment>
+      <DataType>int(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="234" name="PickupUnit">
+      <Position>9</Position>
+      <Comment>取件单位	外键，对应到单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="234" name="BusinessNoticeNo">
+      <Position>10</Position>
+      <Comment>业务通知单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="234" name="PickupTime">
+      <Position>11</Position>
+      <Comment>取件时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="234" name="SortingCode">
+      <Position>12</Position>
+      <Comment>分拣编码</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="339" parent="234" name="FK_Reference_40">
+      <ColNames>PickupUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="340" parent="234" name="FK_Reference_39">
+      <ColNames>BusinessNoticeNo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="341" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="342" parent="234" name="FK_Reference_40">
+      <ColNames>PickupUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="343" parent="234" name="FK_Reference_39">
+      <ColNames>BusinessNoticeNo</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_BusinessAdmissibility</RefTableName>
+      <RefColNames>BusinessNoticeNo</RefColNames>
+    </foreign-key>
+    <column id="344" parent="235" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="235" name="WorkSheetNo">
+      <Position>2</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="235" name="Destination">
+      <Position>3</Position>
+      <Comment>到达地</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="235" name="ProductTime">
+      <Position>4</Position>
+      <Comment>产品时限</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="235" name="Total">
+      <Position>5</Position>
+      <Comment>总件数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="235" name="Weight">
+      <Position>6</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="235" name="StowageRequirements">
+      <Position>7</Position>
+      <Comment>配载要求</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="235" name="ProductTypeId">
+      <Position>8</Position>
+      <Comment>产品类别，外键产品类别表</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="235" name="SubordinateUnit">
+      <Position>9</Position>
+      <Comment>受理单位，外键单位表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="235" name="SubordinateDate">
+      <Position>10</Position>
+      <Comment>受理时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="235" name="DocumentsStateId">
+      <Position>11</Position>
+      <Comment>单据状态,外键单据状态表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="235" name="DataStateId">
+      <Position>12</Position>
+      <Comment>数据状态，外键数据状态表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="356" parent="235" name="FK_Reference_58">
+      <ColNames>ProductTypeId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="357" parent="235" name="FK_Reference_59">
+      <ColNames>SubordinateUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="358" parent="235" name="FK_Reference_61">
+      <ColNames>DocumentsStateId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="359" parent="235" name="FK_Reference_60">
+      <ColNames>DataStateId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="360" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="361" parent="235" name="FK_Reference_58">
+      <ColNames>ProductTypeId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_ProductType</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="362" parent="235" name="FK_Reference_59">
+      <ColNames>SubordinateUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="363" parent="235" name="FK_Reference_61">
+      <ColNames>DocumentsStateId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_DocumentsState</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="364" parent="235" name="FK_Reference_60">
+      <ColNames>DataStateId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_DataState</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="365" parent="236" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="236" name="Province">
+      <Position>2</Position>
+      <Comment>省</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="367" parent="236" name="City">
+      <Position>3</Position>
+      <Comment>城市</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="368" parent="236" name="County">
+      <Position>4</Position>
+      <Comment>区（县）</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="369" parent="236" name="PostalCode">
+      <Position>5</Position>
+      <Comment>邮政编码</Comment>
+      <DataType>int(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="370" parent="236" name="SimpleCode">
+      <Position>6</Position>
+      <Comment>简码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="236" name="CityCode">
+      <Position>7</Position>
+      <Comment>城市编码</Comment>
+      <DataType>int(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="236" name="EntryUnitID">
+      <Position>8</Position>
+      <Comment>进港单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="236" name="ComplementUnitID">
+      <Position>9</Position>
+      <Comment>出港单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="236" name="Nature">
+      <Position>10</Position>
+      <Comment>性质	1.省级 2.市辖市 3.直辖市 &#xd;
+            4.县级5.地级 6.省会</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="236" name="TheArea">
+      <Position>11</Position>
+      <Comment>所属区域	1.东北区2.华东区 3.华南区 &#xd;
+            4.西北区 5华中区 6西南区 7华北区</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="236" name="Stats">
+      <Position>12</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="377" parent="236" name="FK_Reference_18">
+      <ColNames>EntryUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="378" parent="236" name="FK_Reference_19">
+      <ColNames>ComplementUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="379" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="380" parent="236" name="FK_Reference_18">
+      <ColNames>EntryUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="381" parent="236" name="FK_Reference_19">
+      <ColNames>ComplementUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="382" parent="237" name="ID">
+      <Position>1</Position>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="237" name="ZoneName">
+      <Position>2</Position>
+      <Comment>定区名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="237" name="EmpNo">
+      <Position>3</Position>
+      <Comment>取派人工号	对应员工表员工工号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="237" name="EmpName">
+      <Position>4</Position>
+      <Comment>取派人名称	对应员工表员姓名</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="237" name="StandardKg">
+      <Position>5</Position>
+      <Comment>收派标准（公斤）	保留二位小数</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="237" name="StandardLength">
+      <Position>6</Position>
+      <Comment>收派标准（长度）	保留二位小数</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="237" name="StandardTime">
+      <Position>7</Position>
+      <Comment>收派时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="237" name="SubordinateUnit">
+      <Position>8</Position>
+      <Comment>所属单位	外键，对应到单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="237" name="type">
+      <Position>9</Position>
+      <Comment>类型</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="391" parent="237" name="FK_Reference_36">
+      <ColNames>ZoneName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="392" parent="237" name="FK_Reference_35">
+      <ColNames>SubordinateUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="393" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="394" parent="237" name="FK_Reference_36">
+      <ColNames>ZoneName</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>BAS_ZoneInfo</RefTableName>
+      <RefColNames>ZoneName</RefColNames>
+    </foreign-key>
+    <foreign-key id="395" parent="237" name="FK_Reference_35">
+      <ColNames>SubordinateUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="396" parent="238" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="238" name="ZoneName">
+      <Position>2</Position>
+      <Comment>定区名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="238" name="City">
+      <Position>3</Position>
+      <Comment>城市</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="238" name="CustomAddress">
+      <Position>4</Position>
+      <Comment>客户地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="238" name="AssociatedPartitions">
+      <Position>5</Position>
+      <Comment>已关联分区</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="401" parent="238" name="FK_Reference_37">
+      <ColNames>ZoneName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="402" parent="238" name="FK_Reference_33">
+      <ColNames>AssociatedPartitions</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="403" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="404" parent="238" name="FK_Reference_37">
+      <ColNames>ZoneName</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>BAS_ZoneInfo</RefTableName>
+      <RefColNames>ZoneName</RefColNames>
+    </foreign-key>
+    <foreign-key id="405" parent="238" name="FK_Reference_33">
+      <ColNames>AssociatedPartitions</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>BAS_Partition</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="406" parent="239" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="407" parent="239" name="Name">
+      <Position>2</Position>
+      <Comment>基本档案名称</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="408" parent="239" name="Grade">
+      <Position>3</Position>
+      <Comment>档案是否分级	1：是，0：否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="409" parent="239" name="OperatorID">
+      <Position>4</Position>
+      <Comment>操作人员	外键，对应到用户表编号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="410" parent="239" name="OperationUnitID">
+      <Position>5</Position>
+      <Comment>操作单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="239" name="Remarks">
+      <Position>6</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="239" name="OperationTime">
+      <Position>7</Position>
+      <Comment>操作时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="413" parent="239" name="FK_Reference_8">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="414" parent="239" name="FK_Reference_9">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="415" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="416" parent="239" name="FK_Reference_8">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="417" parent="239" name="FK_Reference_9">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="418" parent="240" name="ID">
+      <Position>1</Position>
+      <Comment>OperationTime</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="240" name="Name">
+      <Position>2</Position>
+      <Comment>档案名称	唯一</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="420" parent="240" name="ParentID">
+      <Position>3</Position>
+      <Comment>上级编码	本表ID</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="421" parent="240" name="MnemonicCode">
+      <Position>4</Position>
+      <Comment>助记码	唯一且只可为英文</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="422" parent="240" name="Available">
+      <Position>5</Position>
+      <Comment>是否封存	1：是，0：否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="240" name="Remarks">
+      <Position>6</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="240" name="OperatorID">
+      <Position>7</Position>
+      <Comment>操作人员	外键，对应到用户表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="425" parent="240" name="OperationUnitID">
+      <Position>8</Position>
+      <Comment>操作单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="426" parent="240" name="OperationTime">
+      <Position>9</Position>
+      <Comment>操作时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="427" parent="240" name="Stats">
+      <Position>10</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="428" parent="240" name="AK_Name">
+      <ColNames>Name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="429" parent="240" name="FK_Reference_10">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="430" parent="240" name="FK_Reference_11">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="431" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="432" parent="240" name="FK_Reference_10">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="433" parent="240" name="FK_Reference_11">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="434" parent="241" name="BasicFileNumber">
+      <Position>1</Position>
+      <Comment>基本档案编号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="241" name="Name">
+      <Position>2</Position>
+      <Comment>收派标准名称	唯一</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="241" name="MinWeight">
+      <Position>3</Position>
+      <Comment>最小重量	非负数</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="241" name="MaxWeight">
+      <Position>4</Position>
+      <Comment>最大重量	非负数且必须大于最小重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="241" name="OperatorID">
+      <Position>5</Position>
+      <Comment>操作人员	外键，对应到员工表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="439" parent="241" name="OperationUnitID">
+      <Position>6</Position>
+      <Comment>操作单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="241" name="OperationTime">
+      <Position>7</Position>
+      <Comment>操作时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="441" parent="241" name="Stats">
+      <Position>8</Position>
+      <Comment>状态	0正常，1停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="442" parent="241" name="AK_Key_1">
+      <ColNames>BasicFileNumber</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="443" parent="241" name="AK_Name">
+      <ColNames>Name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="444" parent="241" name="FK_Reference_12">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="445" parent="241" name="FK_Reference_13">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="446" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BasicFileNumber</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="447" parent="241" name="FK_Reference_12">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="448" parent="241" name="FK_Reference_13">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="449" parent="242" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="242" name="Province">
+      <Position>2</Position>
+      <Comment>省</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="242" name="City">
+      <Position>3</Position>
+      <Comment>城市</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="242" name="County">
+      <Position>4</Position>
+      <Comment>区（县）</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="242" name="ZoneCode">
+      <Position>5</Position>
+      <Comment>定区编码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="242" name="Keyword">
+      <Position>6</Position>
+      <Comment>关键字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="455" parent="242" name="StartInt">
+      <Position>7</Position>
+      <Comment>起始号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="242" name="TerminateInt">
+      <Position>8</Position>
+      <Comment>终止号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="242" name="SDInt">
+      <Position>9</Position>
+      <Comment>单双号	1：单，2：双</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="242" name="Stats">
+      <Position>10</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="459" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="460" parent="243" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="243" name="LineType">
+      <Position>2</Position>
+      <Comment>线路类型	1．全部 2．干线 3．周边 &#xd;
+            4．省内 5．临时 6．市内</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="462" parent="243" name="LineID">
+      <Position>3</Position>
+      <Comment>线路	外键，线路ID</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="243" name="LicensePlateInt">
+      <Position>4</Position>
+      <Comment>车牌号</Comment>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="243" name="Carrier">
+      <Position>5</Position>
+      <Comment>承运商</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="243" name="Models">
+      <Position>6</Position>
+      <Comment>车型</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="243" name="Driver">
+      <Position>7</Position>
+      <Comment>司机</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="467" parent="243" name="Telephone">
+      <Position>8</Position>
+      <Comment>电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="468" parent="243" name="Ton">
+      <Position>9</Position>
+      <Comment>吨控</Comment>
+      <DataType>int(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="469" parent="243" name="Remarks">
+      <Position>10</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="470" parent="243" name="OperationUnitID">
+      <Position>11</Position>
+      <Comment>操作单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="471" parent="243" name="OperatorID">
+      <Position>12</Position>
+      <Comment>操作单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="243" name="OperationTime">
+      <Position>13</Position>
+      <Comment>操作时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="243" name="Stats">
+      <Position>14</Position>
+      <Comment>状态，0正常，1停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="474" parent="243" name="FK_Reference_15">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="475" parent="243" name="FK_Reference_16">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="476" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="477" parent="243" name="FK_Reference_15">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="478" parent="243" name="FK_Reference_16">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="479" parent="244" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="244" name="TimeName">
+      <Position>2</Position>
+      <Comment>时间名称	唯一</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="244" name="SubordinateUnit">
+      <Position>3</Position>
+      <Comment>所属单位	外键，对应到单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="244" name="WorkingTime">
+      <Position>4</Position>
+      <Comment>平时上班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="244" name="ClosingTime">
+      <Position>5</Position>
+      <Comment>平时下班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="484" parent="244" name="SaturdayWorkingTime">
+      <Position>6</Position>
+      <Comment>周六上班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="485" parent="244" name="SaturdayClosingTime">
+      <Position>7</Position>
+      <Comment>周六下班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="486" parent="244" name="SundayWorkingTime">
+      <Position>8</Position>
+      <Comment>周日上班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="244" name="SundayClosingTime">
+      <Position>9</Position>
+      <Comment>周日下班时间	只需要时分，不需要日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="244" name="Stats">
+      <Position>10</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="489" parent="244" name="FK_Reference_34">
+      <ColNames>SubordinateUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="490" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="491" parent="244" name="FK_Reference_34">
+      <ColNames>SubordinateUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="492" parent="245" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="245" name="EmpNo">
+      <Position>2</Position>
+      <Comment>员工工号对应员工表员工工号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="494" parent="245" name="EmpName">
+      <Position>3</Position>
+      <Comment>员工名称对应员工表员姓名</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="245" name="MobileNo">
+      <Position>4</Position>
+      <Comment>手机号码</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="245" name="Type">
+      <Position>5</Position>
+      <Comment>取派员类型	对应“基础档案表”表ID</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="245" name="PDA">
+      <Position>6</Position>
+      <Comment>是否使用PDA	1：使用，0：不使用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="245" name="StandardKg">
+      <Position>7</Position>
+      <Comment>收派标准（公斤）	保留二位小数使用，0：不使用</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="499" parent="245" name="Models">
+      <Position>8</Position>
+      <Comment>收派标准（长度）	保留二位小数</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="500" parent="245" name="PlateInt">
+      <Position>9</Position>
+      <Comment>车型</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="245" name="InvalidateMark">
+      <Position>10</Position>
+      <Comment>车牌号</Comment>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="245" name="SubordinateUnit">
+      <Position>11</Position>
+      <Comment>所属单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="245" name="Stats">
+      <Position>12</Position>
+      <Comment>状态，0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="504" parent="245" name="FK_Reference_17">
+      <ColNames>SubordinateUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="505" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="506" parent="245" name="FK_Reference_17">
+      <ColNames>SubordinateUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="507" parent="246" name="CustomCode">
+      <Position>1</Position>
+      <Comment>客户编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="508" parent="246" name="CustomName">
+      <Position>2</Position>
+      <Comment>客户姓名	唯一</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="246" name="MobileNo">
+      <Position>3</Position>
+      <Comment>手机号码</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="246" name="CityName">
+      <Position>4</Position>
+      <Comment>城市</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="246" name="CstomAddress">
+      <Position>5</Position>
+      <Comment>客户地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="246" name="ZoneName">
+      <Position>6</Position>
+      <Comment>定区名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="513" parent="246" name="AK_uq_name">
+      <ColNames>CustomName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="514" parent="246" name="FK_Reference_32">
+      <ColNames>ZoneName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="515" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CustomCode</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="516" parent="246" name="FK_Reference_32">
+      <ColNames>ZoneName</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>BAS_ZoneInfo</RefTableName>
+      <RefColNames>ZoneName</RefColNames>
+    </foreign-key>
+    <column id="517" parent="247" name="ZoneName">
+      <Position>1</Position>
+      <Comment>定区名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="518" parent="247" name="ZoneCode">
+      <Position>2</Position>
+      <Comment>定区编码	唯一</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="247" name="ZonePeople">
+      <Position>3</Position>
+      <Comment>定区负责人	外键，对应到员工表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="247" name="TelPhone">
+      <Position>4</Position>
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="521" parent="247" name="SubordinateUnit">
+      <Position>5</Position>
+      <Comment>所属单位	外键，对应到单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="522" parent="247" name="Stats">
+      <Position>6</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="523" parent="247" name="FK_Reference_31">
+      <ColNames>ZonePeople</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="524" parent="247" name="FK_Reference_30">
+      <ColNames>SubordinateUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="525" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ZoneName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="526" parent="247" name="FK_Reference_31">
+      <ColNames>ZonePeople</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="527" parent="247" name="FK_Reference_30">
+      <ColNames>SubordinateUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="528" parent="248" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="248" name="WorkSheetNo">
+      <Position>2</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="530" parent="248" name="CType">
+      <Position>3</Position>
+      <Comment>类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="531" parent="248" name="Corporation">
+      <Position>4</Position>
+      <Comment>代理公司</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="532" parent="248" name="WaybillID">
+      <Position>5</Position>
+      <Comment>货票号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="533" parent="248" name="Remarks">
+      <Position>6</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="534" parent="248" name="InputPerson">
+      <Position>7</Position>
+      <Comment>录入人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="248" name="InputDate">
+      <Position>8</Position>
+      <Comment>录入时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="248" name="InputCompany">
+      <Position>9</Position>
+      <Comment>录入单位	外键，对应单位表单位ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="537" parent="248" name="Stats">
+      <Position>10</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="538" parent="248" name="FK_Reference_52">
+      <ColNames>InputPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="539" parent="248" name="FK_Reference_53">
+      <ColNames>InputCompany</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="540" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="541" parent="248" name="FK_Reference_52">
+      <ColNames>InputPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Roles</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="542" parent="248" name="FK_Reference_53">
+      <ColNames>InputCompany</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Roles</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="543" parent="249" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="544" parent="249" name="DispatchSequence">
+      <Position>2</Position>
+      <Comment>调度序号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="249" name="TransferredUnit">
+      <Position>3</Position>
+      <Comment>调入单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="249" name="OperatorID">
+      <Position>4</Position>
+      <Comment>操作人员	外键，对应到用户表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="249" name="OperationUnitID">
+      <Position>5</Position>
+      <Comment>操作单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="249" name="OperationTime">
+      <Position>6</Position>
+      <Comment>操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="549" parent="249" name="Remark">
+      <Position>7</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="249" name="Status">
+      <Position>8</Position>
+      <Comment>状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="249" name="Reason">
+      <Position>9</Position>
+      <Comment>退回原因</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="552" parent="249" name="FK_Reference_46">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="553" parent="249" name="FK_Reference_47">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="554" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="555" parent="249" name="FK_Reference_46">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="556" parent="249" name="FK_Reference_47">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="557" parent="250" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="558" parent="250" name="Outline">
+      <Position>2</Position>
+      <Comment>宣传概要</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="250" name="ReleaseTime">
+      <Position>3</Position>
+      <Comment>发布时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="250" name="FailureTime">
+      <Position>4</Position>
+      <Comment>失效时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="250" name="Status">
+      <Position>5</Position>
+      <Comment>状态	1.开启，2.关闭</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="250" name="Content">
+      <Position>6</Position>
+      <Comment>宣传内容</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="563" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="564" parent="251" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="565" parent="251" name="WorkOrderID">
+      <Position>2</Position>
+      <Comment>工作单ID</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="566" parent="251" name="WorkSheetNo">
+      <Position>3</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="567" parent="251" name="WorkOrderType">
+      <Position>4</Position>
+      <Comment>工作单类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="568" parent="251" name="SignType">
+      <Position>5</Position>
+      <Comment>签收类型	1.正常签收,2.反向签收</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="569" parent="251" name="CourierInt">
+      <Position>6</Position>
+      <Comment>派送员工号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="570" parent="251" name="CourierName">
+      <Position>7</Position>
+      <Comment>派送员工姓名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="251" name="Recipient">
+      <Position>8</Position>
+      <Comment>签收人</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="251" name="SignUnit">
+      <Position>9</Position>
+      <Comment>签收单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="251" name="SignTime">
+      <Position>10</Position>
+      <Comment>签收时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="574" parent="251" name="InvalidateMark">
+      <Position>11</Position>
+      <Comment>作废标记	1=是 2=否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="575" parent="251" name="AbnormalMark">
+      <Position>12</Position>
+      <Comment>异常备注</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="251" name="InputPersonCode">
+      <Position>13</Position>
+      <Comment>录入人编码</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="577" parent="251" name="InputPersonID">
+      <Position>14</Position>
+      <Comment>录入人	外键，对应到用户表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="578" parent="251" name="InputID">
+      <Position>15</Position>
+      <Comment>录入单位	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="579" parent="251" name="InputTime">
+      <Position>16</Position>
+      <Comment>录入时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="580" parent="251" name="FK_Reference_45">
+      <ColNames>InputPersonID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="581" parent="251" name="FK_Reference_44">
+      <ColNames>InputID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="582" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="583" parent="251" name="FK_Reference_45">
+      <ColNames>InputPersonID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="584" parent="251" name="FK_Reference_44">
+      <ColNames>InputID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="585" parent="252" name="ID">
+      <Position>1</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="252" name="SendCompany">
+      <Position>2</Position>
+      <Comment>派送单位</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="587" parent="252" name="CargoAddress">
+      <Position>3</Position>
+      <Comment>货物地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="588" parent="252" name="IssuePerson">
+      <Position>4</Position>
+      <Comment>分单人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="252" name="IssueDate">
+      <Position>5</Position>
+      <Comment>分单时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="252" name="WorkAddress">
+      <Position>6</Position>
+      <Comment>入库运转中心</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="252" name="StorageDate">
+      <Position>7</Position>
+      <Comment>入库时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="252" name="OutBoundDate">
+      <Position>8</Position>
+      <Comment>出库时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="593" parent="252" name="TimeLimit">
+      <Position>9</Position>
+      <Comment>送达时限</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="594" parent="252" name="Batch">
+      <Position>10</Position>
+      <Comment>进港分拨批次</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="595" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="596" parent="253" name="ID">
+      <Position>1</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="253" name="PackingID">
+      <Position>2</Position>
+      <Comment>合包号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="598" parent="253" name="Transfer">
+      <Position>3</Position>
+      <Comment>中转</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="599" parent="253" name="ActualCount">
+      <Position>4</Position>
+      <Comment>实际数量</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="600" parent="253" name="Destination">
+      <Position>5</Position>
+      <Comment>到达地</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="601" parent="253" name="WareName">
+      <Position>6</Position>
+      <Comment>商品名</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="602" parent="253" name="CargoCount">
+      <Position>7</Position>
+      <Comment>件数</Comment>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="603" parent="253" name="Weight">
+      <Position>8</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="604" parent="253" name="Volume">
+      <Position>9</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="253" name="ActualVolume">
+      <Position>10</Position>
+      <Comment>实际体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="253" name="TimeLimit">
+      <Position>11</Position>
+      <Comment>送达时限</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="253" name="Ask">
+      <Position>12</Position>
+      <Comment>配置要求</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="253" name="TakeCargoPerson">
+      <Position>13</Position>
+      <Comment>收货人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="253" name="TackCargoAddress">
+      <Position>14</Position>
+      <Comment>收货地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="253" name="Payment">
+      <Position>15</Position>
+      <Comment>到付款</Comment>
+      <DataType>int(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="253" name="ImportantHints">
+      <Position>16</Position>
+      <Comment>重要提示</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="253" name="SurplusTime">
+      <Position>17</Position>
+      <Comment>剩余时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="253" name="EntrustCompany">
+      <Position>18</Position>
+      <Comment>委托单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="614" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="615" parent="254" name="ID">
+      <Position>1</Position>
+      <Comment>出港单位</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="616" parent="254" name="VehicleInt">
+      <Position>2</Position>
+      <Comment>航班车次</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="254" name="TransportWay">
+      <Position>3</Position>
+      <Comment>运输方式</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="254" name="WaybillID">
+      <Position>4</Position>
+      <Comment>货票号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="254" name="EstimateDate">
+      <Position>5</Position>
+      <Comment>预计到港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="620" parent="254" name="CargoN">
+      <Position>6</Position>
+      <Comment>件数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="621" parent="254" name="ImportantHints">
+      <Position>7</Position>
+      <Comment>重要提示</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="622" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="623" parent="255" name="ID">
+      <Position>1</Position>
+      <Comment>工作单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="255" name="ResourceType">
+      <Position>2</Position>
+      <Comment>状态</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="255" name="Port">
+      <Position>3</Position>
+      <Comment>到达口岸</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="626" parent="255" name="Demand">
+      <Position>4</Position>
+      <Comment>配载方式</Comment>
+      <DataType>bit(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="627" parent="255" name="VehicleInt">
+      <Position>5</Position>
+      <Comment>航班车次</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="628" parent="255" name="Capacity">
+      <Position>6</Position>
+      <Comment>运力</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="255" name="WaybillID">
+      <Position>7</Position>
+      <Comment>货票号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="255" name="Carrier">
+      <Position>8</Position>
+      <Comment>承运商</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="255" name="ExpectArrivalDate">
+      <Position>9</Position>
+      <Comment>预计到港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="632" parent="255" name="ExpectDepartureDate">
+      <Position>10</Position>
+      <Comment>预计离港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="633" parent="255" name="Ticket">
+      <Position>11</Position>
+      <Comment>票数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="634" parent="255" name="Cargo">
+      <Position>12</Position>
+      <Comment>件数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="255" name="Weight">
+      <Position>13</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="636" parent="255" name="Volume">
+      <Position>14</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="255" name="HandlePerson">
+      <Position>15</Position>
+      <Comment>处理人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="255" name="HandleDate">
+      <Position>16</Position>
+      <Comment>处理时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="639" parent="255" name="EnterPerson">
+      <Position>17</Position>
+      <Comment>确认人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="640" parent="255" name="EnterDate">
+      <Position>18</Position>
+      <Comment>确认时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="641" parent="255" name="EnterCompany">
+      <Position>19</Position>
+      <Comment>确认单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="642" parent="255" name="AcceptPerson">
+      <Position>20</Position>
+      <Comment>接货人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="255" name="AcceptDate">
+      <Position>21</Position>
+      <Comment>接收时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="644" parent="255" name="AcceptCompany">
+      <Position>22</Position>
+      <Comment>接收单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="645" parent="255" name="AbnormalRemarks">
+      <Position>23</Position>
+      <Comment>异常备注</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="646" parent="255" name="WorkInt">
+      <Position>24</Position>
+      <Comment>异常备注</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="255" name="Transfer">
+      <Position>25</Position>
+      <Comment>中转</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="648" parent="255" name="ActualCount">
+      <Position>26</Position>
+      <Comment>实际数量</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="649" parent="255" name="Destination">
+      <Position>27</Position>
+      <Comment>到达地</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="650" parent="255" name="WareName">
+      <Position>28</Position>
+      <Comment>品名</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="651" parent="255" name="ActualVolume">
+      <Position>29</Position>
+      <Comment>实际体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="652" parent="255" name="TimeLimit">
+      <Position>30</Position>
+      <Comment>送达时限</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="653" parent="255" name="Ask">
+      <Position>31</Position>
+      <Comment>配置要求</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="654" parent="255" name="TakeCargoPerson">
+      <Position>32</Position>
+      <Comment>收货人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="655" parent="255" name="TackCargoAddress">
+      <Position>33</Position>
+      <Comment>收货地址</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="255" name="Payment">
+      <Position>34</Position>
+      <Comment>到付款</Comment>
+      <DataType>int(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="255" name="SpecialEnsure">
+      <Position>35</Position>
+      <Comment>特殊保障</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="255" name="DeliveryType">
+      <Position>36</Position>
+      <Comment>发货类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="255" name="ImportantHints">
+      <Position>37</Position>
+      <Comment>重要提示</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="660" parent="255" name="SurplusTime">
+      <Position>38</Position>
+      <Comment>剩余时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="661" parent="255" name="FK_Reference_26">
+      <ColNames>EnterPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="662" parent="255" name="FK_Reference_27">
+      <ColNames>AcceptPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="663" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="664" parent="255" name="FK_Reference_26">
+      <ColNames>EnterPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="665" parent="255" name="FK_Reference_27">
+      <ColNames>AcceptPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="666" parent="256" name="ID">
+      <Position>1</Position>
+      <Comment>出库交接单号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="667" parent="256" name="InputType">
+      <Position>2</Position>
+      <Comment>状态</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="256" name="Port">
+      <Position>3</Position>
+      <Comment>到达口岸</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="256" name="Demand">
+      <Position>4</Position>
+      <Comment>配载方式</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="256" name="VehicleInt">
+      <Position>5</Position>
+      <Comment>航班车次</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="256" name="WaybillID">
+      <Position>6</Position>
+      <Comment>货票号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="672" parent="256" name="ExpectArrivalDate">
+      <Position>7</Position>
+      <Comment>预计到港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="673" parent="256" name="ExpectDepartureDate">
+      <Position>8</Position>
+      <Comment>预计离港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="674" parent="256" name="ActualArrivalDate">
+      <Position>9</Position>
+      <Comment>实际到港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="675" parent="256" name="ActualDepartureDate">
+      <Position>10</Position>
+      <Comment>实际离港时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="676" parent="256" name="Start">
+      <Position>11</Position>
+      <Comment>始发站</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="677" parent="256" name="Carriers">
+      <Position>12</Position>
+      <Comment>承运商</Comment>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="678" parent="256" name="Remarks">
+      <Position>13</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="679" parent="256" name="InputPerson">
+      <Position>14</Position>
+      <Comment>录入人</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="680" parent="256" name="InputDate">
+      <Position>15</Position>
+      <Comment>录入时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="681" parent="256" name="FK_Reference_28">
+      <ColNames>InputPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="682" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="683" parent="256" name="FK_Reference_28">
+      <ColNames>InputPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="684" parent="257" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="685" parent="257" name="LogisticsInt">
+      <Position>2</Position>
+      <Comment>编物流序号号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="686" parent="257" name="LineName">
+      <Position>3</Position>
+      <Comment>线路名称</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="687" parent="257" name="StartCompany">
+      <Position>4</Position>
+      <Comment>发车单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="688" parent="257" name="GeneratePerson">
+      <Position>5</Position>
+      <Comment>生成人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="689" parent="257" name="CarInt">
+      <Position>6</Position>
+      <Comment>车牌号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="690" parent="257" name="Driver">
+      <Position>7</Position>
+      <Comment>司机</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="691" parent="257" name="DriverPhone">
+      <Position>8</Position>
+      <Comment>司机电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="692" parent="257" name="CarType">
+      <Position>9</Position>
+      <Comment>车型</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="693" parent="257" name="LogisticsState">
+      <Position>10</Position>
+      <Comment>物流状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="694" parent="257" name="IsCancel">
+      <Position>11</Position>
+      <Comment>作废</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="695" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="696" parent="258" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="697" parent="258" name="LogisticsInt">
+      <Position>2</Position>
+      <Comment>物流序号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="698" parent="258" name="CompanyName">
+      <Position>3</Position>
+      <Comment>单位名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="699" parent="258" name="ExpectArrivalDate">
+      <Position>4</Position>
+      <Comment>预计到达时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="700" parent="258" name="ActualArrivalDate">
+      <Position>5</Position>
+      <Comment>实际到达时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="701" parent="258" name="ExpectDepartureDate">
+      <Position>6</Position>
+      <Comment>预计离开时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="702" parent="258" name="ActualDepartureDate">
+      <Position>7</Position>
+      <Comment>实际离开时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="703" parent="258" name="OperationPerson">
+      <Position>8</Position>
+      <Comment>操作人</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="704" parent="258" name="LogisticsType">
+      <Position>9</Position>
+      <Comment>类型 </Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="705" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="706" parent="259" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="707" parent="259" name="TransferInt">
+      <Position>2</Position>
+      <Comment>交接单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="708" parent="259" name="StartStation">
+      <Position>3</Position>
+      <Comment>发站</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="709" parent="259" name="EndStation">
+      <Position>4</Position>
+      <Comment>到站</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="710" parent="259" name="Dispatcher">
+      <Position>5</Position>
+      <Comment>调度人员</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="711" parent="259" name="Driver">
+      <Position>6</Position>
+      <Comment>司机</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="712" parent="259" name="DeliveryPerson">
+      <Position>7</Position>
+      <Comment>发货人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="713" parent="259" name="DeliveryDate">
+      <Position>8</Position>
+      <Comment>发货时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="714" parent="259" name="FK_Reference_29">
+      <ColNames>DeliveryPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="715" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="716" parent="259" name="FK_Reference_29">
+      <ColNames>DeliveryPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="717" parent="260" name="ID">
+      <Position>1</Position>
+      <Comment>跟踪表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="718" parent="260" name="LineType">
+      <Position>2</Position>
+      <Comment>线路类型</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="719" parent="260" name="LineName">
+      <Position>3</Position>
+      <Comment>线路名称</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="720" parent="260" name="LogisticsCar">
+      <Position>4</Position>
+      <Comment>线路名称</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="721" parent="260" name="LineState">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="722" parent="260" name="NodeName">
+      <Position>6</Position>
+      <Comment>节点名称</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="723" parent="260" name="StartTime">
+      <Position>7</Position>
+      <Comment>发车时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="724" parent="260" name="ArrivalTime">
+      <Position>8</Position>
+      <Comment>到达时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="725" parent="260" name="CarInt">
+      <Position>9</Position>
+      <Comment>车号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="726" parent="260" name="NextNodeLoad">
+      <Position>10</Position>
+      <Comment>下一节点可装载量</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="727" parent="260" name="Describes">
+      <Position>11</Position>
+      <Comment>描述</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="728" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="729" parent="261" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="730" parent="261" name="OutBoundType">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="731" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="732" parent="262" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="733" parent="262" name="ItemCode">
+      <Position>2</Position>
+      <Comment>物品编码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="734" parent="262" name="ItemName">
+      <Position>3</Position>
+      <Comment>物品名称</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="735" parent="262" name="PlannedPrice">
+      <Position>4</Position>
+      <Comment>计划价格	默认0</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="736" parent="262" name="Specifications">
+      <Position>5</Position>
+      <Comment>规格</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="737" parent="262" name="type">
+      <Position>6</Position>
+      <Comment>类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="738" parent="262" name="MeasurementUnit">
+      <Position>7</Position>
+      <Comment>计量单位	张、箱、大箱、小箱、个、包、袋等</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="739" parent="262" name="Status">
+      <Position>8</Position>
+      <Comment>状态	默认：正常状态1（作废状态-1）</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="740" parent="262" name="OperatorID">
+      <Position>9</Position>
+      <Comment>操作人工号	外键，对应员工表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="741" parent="262" name="OperationUnitID">
+      <Position>10</Position>
+      <Comment>操作人姓名	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="742" parent="262" name="OperationTime">
+      <Position>11</Position>
+      <Comment>操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="743" parent="262" name="InvalidateJobInt">
+      <Position>12</Position>
+      <Comment>作废人工号	外键，对应员工表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="744" parent="262" name="InvalidateName">
+      <Position>13</Position>
+      <Comment>作废人姓名	外键，对应到单位表编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="745" parent="262" name="InvalidateTime">
+      <Position>14</Position>
+      <Comment>作废时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="746" parent="262" name="FK_Reference_51">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="747" parent="262" name="FK_Reference_48">
+      <ColNames>OperationUnitID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="748" parent="262" name="FK_Reference_50">
+      <ColNames>InvalidateJobInt</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="749" parent="262" name="FK_Reference_49">
+      <ColNames>InvalidateName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="750" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="751" parent="262" name="FK_Reference_51">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="752" parent="262" name="FK_Reference_48">
+      <ColNames>OperationUnitID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="753" parent="262" name="FK_Reference_50">
+      <ColNames>InvalidateJobInt</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="754" parent="262" name="FK_Reference_49">
+      <ColNames>InvalidateName</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="755" parent="263" name="ID">
+      <Position>1</Position>
+      <Comment>编号,自增</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="756" parent="263" name="OutboundNumber">
+      <Position>2</Position>
+      <Comment>出库单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="757" parent="263" name="OutboundType">
+      <Position>3</Position>
+      <Comment>出库类型，外键包装材料出库类型表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="758" parent="263" name="TransportSlip">
+      <Position>4</Position>
+      <Comment>运输单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="759" parent="263" name="AffiliatedUnit">
+      <Position>5</Position>
+      <Comment>所属单位          外键，单位表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="760" parent="263" name="IssuedByTheUnit">
+      <Position>6</Position>
+      <Comment>下发单位       外键，单位表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="761" parent="263" name="Operator">
+      <Position>7</Position>
+      <Comment>经办人       外键，单位表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="762" parent="263" name="clienter">
+      <Position>8</Position>
+      <Comment>客户     外键，用户表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="763" parent="263" name="recipient">
+      <Position>9</Position>
+      <Comment>recipient&#xd;
+            领用人工号&#xd;
+            外键，员工表</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="764" parent="263" name="RecipientsTime">
+      <Position>10</Position>
+      <Comment>领用时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="765" parent="263" name="single">
+      <Position>11</Position>
+      <Comment>开单人     外键，员工表</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="766" parent="263" name="OrderTime">
+      <Position>12</Position>
+      <Comment>开单时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="767" parent="263" name="FK_Reference_69">
+      <ColNames>OutboundType</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="768" parent="263" name="FK_Reference_63">
+      <ColNames>AffiliatedUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="769" parent="263" name="FK_Reference_64">
+      <ColNames>IssuedByTheUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="770" parent="263" name="FK_Reference_65">
+      <ColNames>Operator</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="771" parent="263" name="FK_Reference_66">
+      <ColNames>clienter</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="772" parent="263" name="FK_Reference_67">
+      <ColNames>recipient</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="773" parent="263" name="FK_Reference_68">
+      <ColNames>single</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="774" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="775" parent="263" name="FK_Reference_69">
+      <ColNames>OutboundType</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>PAC_OutboundType</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="776" parent="263" name="FK_Reference_63">
+      <ColNames>AffiliatedUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="777" parent="263" name="FK_Reference_64">
+      <ColNames>IssuedByTheUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="778" parent="263" name="FK_Reference_65">
+      <ColNames>Operator</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="779" parent="263" name="FK_Reference_66">
+      <ColNames>clienter</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="780" parent="263" name="FK_Reference_67">
+      <ColNames>recipient</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="781" parent="263" name="FK_Reference_68">
+      <ColNames>single</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="782" parent="264" name="WarehouseNo">
+      <Position>1</Position>
+      <Comment>入库单号	唯一</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="783" parent="264" name="ReservoirType">
+      <Position>2</Position>
+      <Comment>入库类型	1.初期库存、2.调拨入库&#xd;
+            3.下发入库、4.盘盈调整</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="784" parent="264" name="Transport">
+      <Position>3</Position>
+      <Comment>运输单号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="785" parent="264" name="SubordinateUnit">
+      <Position>4</Position>
+      <Comment>所属单位	系统默认登录人所在单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="786" parent="264" name="DrawerNo">
+      <Position>5</Position>
+      <Comment>开单人工号	登录人工号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="787" parent="264" name="DrawerName">
+      <Position>6</Position>
+      <Comment>开单人姓名	登录人姓名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="788" parent="264" name="DrawerTime">
+      <Position>7</Position>
+      <Comment>开单时间	服务器时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="789" parent="264" name="ProduceTypeId">
+      <Position>8</Position>
+      <Comment>产品类别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="790" parent="264" name="Stats">
+      <Position>9</Position>
+      <Comment>状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="791" parent="264" name="Remark">
+      <Position>10</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="792" parent="264" name="AK_uq_No">
+      <ColNames>WarehouseNo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="793" parent="264" name="FK_Reference_62">
+      <ColNames>ProduceTypeId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="794" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>WarehouseNo</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="795" parent="264" name="FK_Reference_62">
+      <ColNames>ProduceTypeId</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>ACC_ProductType</RefTableName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="796" parent="265" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="797" parent="265" name="WarehouseNo">
+      <Position>2</Position>
+      <Comment>入库单号	外键，对应到库存表“入库单号”</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="798" parent="265" name="GoodsCode">
+      <Position>3</Position>
+      <Comment>货物编码	正常物品</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="799" parent="265" name="GoodsName">
+      <Position>4</Position>
+      <Comment>货物名称</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="800" parent="265" name="StorageNum">
+      <Position>5</Position>
+      <Comment>入库数量</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="801" parent="265" name="ActualNum">
+      <Position>6</Position>
+      <Comment>实际数量	默认与入库数量一致</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="802" parent="265" name="PlannedPrice">
+      <Position>7</Position>
+      <Comment>计划价格</Comment>
+      <DataType>decimal(8,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="803" parent="265" name="Specifications">
+      <Position>8</Position>
+      <Comment>规格</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="804" parent="265" name="type">
+      <Position>9</Position>
+      <Comment>类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="805" parent="265" name="Status">
+      <Position>10</Position>
+      <Comment>状态	1.正常、2.作废</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="806" parent="265" name="FK_Reference_42">
+      <ColNames>WarehouseNo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="807" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID
+WarehouseNo
+GoodsCode
+ActualNum</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="808" parent="265" name="FK_Reference_42">
+      <ColNames>WarehouseNo</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>PAC_Stock</RefTableName>
+      <RefColNames>WarehouseNo</RefColNames>
+    </foreign-key>
+    <column id="809" parent="266" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="810" parent="266" name="ApplicationNo">
+      <Position>2</Position>
+      <Comment>申请单号	唯一</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="811" parent="266" name="WorkSheetNo">
+      <Position>3</Position>
+      <Comment>工作单号	唯一</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="812" parent="266" name="ReturnType">
+      <Position>4</Position>
+      <Comment>返货类型	1、选择项为“基础设置中对应的返货原因” 2、只能选择未封存的</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="813" parent="266" name="ApRemark">
+      <Position>5</Position>
+      <Comment>申请备注</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="814" parent="266" name="ApLoss">
+      <Position>6</Position>
+      <Comment>破损丢失件数	默认为“0”</Comment>
+      <DataType>int(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="815" parent="266" name="EntryTime">
+      <Position>7</Position>
+      <Comment>进港时间	默认为本单位的最早入库时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="816" parent="266" name="ReceivegUnit">
+      <Position>8</Position>
+      <Comment>接收单位	默认为取件单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="817" parent="266" name="InvalidateSign">
+      <Position>9</Position>
+      <Comment>作废标志	新增单据为“否”不可修改&#xd;
+            作废操作时状态为“是”</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="818" parent="266" name="ReturnUnit">
+      <Position>10</Position>
+      <Comment>返货单位	默认为录入单位，可修改</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="819" parent="266" name="RecordingTime">
+      <Position>11</Position>
+      <Comment>录入时间	默认为系统录入时间</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="820" parent="266" name="EntryUnit">
+      <Position>12</Position>
+      <Comment>录入单位	默认为录入人所在单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="821" parent="266" name="PersonName">
+      <Position>13</Position>
+      <Comment>录入人	默认为登录人</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="822" parent="266" name="ConfirmationTime">
+      <Position>14</Position>
+      <Comment>确认时间	默认为申请处理时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="823" parent="266" name="ConfirmationUnit">
+      <Position>15</Position>
+      <Comment>确认单位	默认为申请处理登录人所在单位</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="824" parent="266" name="ConfirmationPersonName">
+      <Position>16</Position>
+      <Comment>确认人	默认为申请处理操作人</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="825" parent="266" name="TreatmentState">
+      <Position>17</Position>
+      <Comment>返货处理状态	1=未确认，2=同意返货&#xd;
+            3=拒绝，4=同意转发</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="826" parent="266" name="ApReturnStatus">
+      <Position>18</Position>
+      <Comment>返货执行状态	1=无，2=已转发，3=已返货</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="827" parent="266" name="IdentificationSign">
+      <Position>19</Position>
+      <Comment>系统自动确认标志	默认为否，七天自动确认默认为“是”</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="828" parent="266" name="HandlingOpinions">
+      <Position>20</Position>
+      <Comment>处理意见	返货申请处理需要填写&#xd;
+            拒绝时必须要填写</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="829" parent="266" name="DenialType">
+      <Position>21</Position>
+      <Comment>拒绝类型</Comment>
+      <DataType>varchar(3)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="830" parent="266" name="AK_uq_ApplicationNo">
+      <ColNames>ApplicationNo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="831" parent="266" name="AK_uq_WorkSheetNo">
+      <ColNames>WorkSheetNo</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="832" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID
+ApplicationNo</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="833" parent="267" name="ID">
+      <Position>1</Position>
+      <Comment>异常编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="834" parent="267" name="LaunchDate">
+      <Position>2</Position>
+      <Comment>发起时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="835" parent="267" name="LaunchPerson">
+      <Position>3</Position>
+      <Comment>发起人</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="836" parent="267" name="LaunchCompany">
+      <Position>4</Position>
+      <Comment>发起单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="837" parent="267" name="AbnormalType">
+      <Position>5</Position>
+      <Comment>异常类型	1.有单无货 2.有货无单</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="838" parent="267" name="TransferInt">
+      <Position>6</Position>
+      <Comment>交接单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="839" parent="267" name="CargoInt">
+      <Position>7</Position>
+      <Comment>单号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="840" parent="267" name="PackageInt">
+      <Position>8</Position>
+      <Comment>合包号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="841" parent="267" name="HedgeAbnInt">
+      <Position>9</Position>
+      <Comment>对冲异常编号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="842" parent="267" name="AboState">
+      <Position>10</Position>
+      <Comment>状态	1.已处理2.未处理3.全部</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="843" parent="267" name="HandleDate">
+      <Position>11</Position>
+      <Comment>处理时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="844" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="845" parent="268" name="ID">
+      <Position>1</Position>
+      <Comment>盘库单号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="846" parent="268" name="ScanID">
+      <Position>2</Position>
+      <Comment>扫描设备号	外键</Comment>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="847" parent="268" name="CargoSum">
+      <Position>3</Position>
+      <Comment>总件数</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="848" parent="268" name="CheckPerson">
+      <Position>4</Position>
+      <Comment>盘库人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="849" parent="268" name="CheckDate">
+      <Position>5</Position>
+      <Comment>盘库时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="850" parent="268" name="CheckCompany">
+      <Position>6</Position>
+      <Comment>操作单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="851" parent="268" name="FK_Reference_23">
+      <ColNames>CheckPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="852" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="853" parent="268" name="FK_Reference_23">
+      <ColNames>CheckPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="854" parent="269" name="ID">
+      <Position>1</Position>
+      <Comment>工作单号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="855" parent="269" name="CargoCount">
+      <Position>2</Position>
+      <Comment>件数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="856" parent="269" name="Weight">
+      <Position>3</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="857" parent="269" name="Volume">
+      <Position>4</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="858" parent="269" name="CargoType">
+      <Position>5</Position>
+      <Comment>类型</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="859" parent="269" name="Direction">
+      <Position>6</Position>
+      <Comment>方向</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="860" parent="269" name="StoragePerson">
+      <Position>7</Position>
+      <Comment>入库人	外键，对应员工表员工ID </Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="861" parent="269" name="StorageDate">
+      <Position>8</Position>
+      <Comment>入库时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="862" parent="269" name="FK_Reference_24">
+      <ColNames>StoragePerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="863" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="864" parent="269" name="FK_Reference_24">
+      <ColNames>StoragePerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="865" parent="270" name="OutBoundID">
+      <Position>1</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="866" parent="270" name="HandoverType">
+      <Position>2</Position>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="867" parent="270" name="Line">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="868" parent="270" name="Direction">
+      <Position>4</Position>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="869" parent="270" name="AcceptPerson">
+      <Position>5</Position>
+      <Comment>接货人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="870" parent="270" name="Carriers">
+      <Position>6</Position>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="871" parent="270" name="DeliveryPerson">
+      <Position>7</Position>
+      <Comment>出货人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="872" parent="270" name="DeliveryDate">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="873" parent="270" name="DeliveryCompany">
+      <Position>9</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="874" parent="270" name="EnterPerson">
+      <Position>10</Position>
+      <Comment>确认人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="875" parent="270" name="EnterDate">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="876" parent="270" name="FK_Reference_20">
+      <ColNames>AcceptPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="877" parent="270" name="FK_Reference_21">
+      <ColNames>DeliveryPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="878" parent="270" name="FK_Reference_22">
+      <ColNames>EnterPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="879" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>OutBoundID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="880" parent="270" name="FK_Reference_20">
+      <ColNames>AcceptPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="881" parent="270" name="FK_Reference_21">
+      <ColNames>DeliveryPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="882" parent="270" name="FK_Reference_22">
+      <ColNames>EnterPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="883" parent="271" name="ID">
+      <Position>1</Position>
+      <Comment>单号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="884" parent="271" name="PackageID">
+      <Position>2</Position>
+      <Comment>合包号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="885" parent="271" name="Weight">
+      <Position>3</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="886" parent="271" name="Volume">
+      <Position>4</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="887" parent="271" name="ScanDate">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="888" parent="271" name="IsScan">
+      <Position>6</Position>
+      <Comment>是否扫描	1：是   0：否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="889" parent="271" name="IsNextStorage">
+      <Position>7</Position>
+      <Comment>是否下环节入库	1：是   0：否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="890" parent="271" name="IsDoubleStorage">
+      <Position>8</Position>
+      <Comment>是否二次入库	1：是   0：否</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="891" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="892" parent="272" name="ID">
+      <Position>1</Position>
+      <Comment>合包号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="893" parent="272" name="PackagePerson">
+      <Position>2</Position>
+      <Comment>合包人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="894" parent="272" name="SealInt">
+      <Position>3</Position>
+      <Comment>封签号（原设备号）</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="895" parent="272" name="Destination">
+      <Position>4</Position>
+      <Comment>到达地</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="896" parent="272" name="ReckonDes">
+      <Position>5</Position>
+      <Comment>计算到达地</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="897" parent="272" name="TimeLimit">
+      <Position>6</Position>
+      <Comment>送达时限</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="898" parent="272" name="TicketSum">
+      <Position>7</Position>
+      <Comment>总票数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="899" parent="272" name="CargoSum">
+      <Position>8</Position>
+      <Comment>总件数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="900" parent="272" name="WeightSum">
+      <Position>9</Position>
+      <Comment>总重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="901" parent="272" name="VolumeSum">
+      <Position>10</Position>
+      <Comment>总体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="902" parent="272" name="State">
+      <Position>11</Position>
+      <Comment>状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="903" parent="272" name="Ask">
+      <Position>12</Position>
+      <Comment>配载要求</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="904" parent="272" name="FK_Reference_25">
+      <ColNames>PackagePerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="905" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="906" parent="272" name="FK_Reference_25">
+      <ColNames>PackagePerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="907" parent="273" name="ID">
+      <Position>1</Position>
+      <Comment>单号</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="908" parent="273" name="WareName">
+      <Position>2</Position>
+      <Comment>商品名</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="909" parent="273" name="Destination">
+      <Position>3</Position>
+      <Comment>到达地</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="910" parent="273" name="Ticket">
+      <Position>4</Position>
+      <Comment>票数</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="911" parent="273" name="ActualCargoInt">
+      <Position>5</Position>
+      <Comment>实际件数</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="912" parent="273" name="CargoInt">
+      <Position>6</Position>
+      <Comment>件数</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="913" parent="273" name="Weight">
+      <Position>7</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="914" parent="273" name="Volume">
+      <Position>8</Position>
+      <Comment>体积</Comment>
+      <DataType>decimal(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="915" parent="273" name="Service">
+      <Position>9</Position>
+      <Comment>到达时限</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="916" parent="273" name="ImportantHints">
+      <Position>10</Position>
+      <Comment>重要提示</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="917" parent="273" name="Ask">
+      <Position>11</Position>
+      <Comment>配置要求</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="918" parent="273" name="InputType">
+      <Position>12</Position>
+      <Comment>输入类型</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="919" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="920" parent="274" name="ID">
+      <Position>1</Position>
+      <Comment>入库交接单号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="921" parent="274" name="AcceptDate">
+      <Position>2</Position>
+      <Comment>接货时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="922" parent="274" name="AcceptPerson">
+      <Position>3</Position>
+      <Comment>编号 自接货人	外键，对应员工表员工ID增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="923" parent="274" name="AcceptCompany">
+      <Position>4</Position>
+      <Comment>接收单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="924" parent="274" name="DeliveryPerson">
+      <Position>5</Position>
+      <Comment>发货人	外键，对应员工表员工ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="925" parent="274" name="DeliveryCompany">
+      <Position>6</Position>
+      <Comment>发货单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="926" parent="274" name="FK_Reference_41">
+      <ColNames>AcceptPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="927" parent="274" name="FK_Reference_43">
+      <ColNames>DeliveryPerson</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="928" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="929" parent="274" name="FK_Reference_41">
+      <ColNames>AcceptPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="930" parent="274" name="FK_Reference_43">
+      <ColNames>DeliveryPerson</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="931" parent="275" name="ID">
+      <Position>1</Position>
+      <Comment>单号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="932" parent="275" name="PackageID">
+      <Position>2</Position>
+      <Comment>合包号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="933" parent="275" name="Weight">
+      <Position>3</Position>
+      <Comment>重量</Comment>
+      <DataType>decimal(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="934" parent="275" name="OutBoundID">
+      <Position>4</Position>
+      <Comment>OutBoundID</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="935" parent="275" name="State">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="936" parent="275" name="FK_Reference_54">
+      <ColNames>OutBoundID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="937" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="938" parent="275" name="FK_Reference_54">
+      <ColNames>OutBoundID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SOR_OutBound</RefTableName>
+      <RefColNames>OutBoundID</RefColNames>
+    </foreign-key>
+    <column id="939" parent="276" name="ID">
+      <Position>1</Position>
+      <Comment>编号 自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="940" parent="276" name="EmpName">
+      <Position>2</Position>
+      <Comment>员工姓名</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="941" parent="276" name="EmpNo">
+      <Position>3</Position>
+      <Comment>工号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="942" parent="276" name="Pwd">
+      <Position>4</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="943" parent="276" name="QueryPwd">
+      <Position>5</Position>
+      <Comment>查台密码   小件员查询时需要用到此密码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="944" parent="276" name="RoleID">
+      <Position>6</Position>
+      <Comment>角色ID 外键，对应权限表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="945" parent="276" name="EmpUnit">
+      <Position>7</Position>
+      <Comment>员工所属单位  外键，对应单位表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="946" parent="276" name="Remark">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="947" parent="276" name="Disabled">
+      <Position>9</Position>
+      <Comment>禁用  1可使用 0已禁用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="948" parent="276" name="FK_Reference_2">
+      <ColNames>RoleID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="949" parent="276" name="FK_Reference_6">
+      <ColNames>EmpUnit</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="950" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="951" parent="276" name="FK_Reference_2">
+      <ColNames>RoleID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Roles</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="952" parent="276" name="FK_Reference_6">
+      <ColNames>EmpUnit</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Units</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="953" parent="277" name="ID">
+      <Position>1</Position>
+      <Comment>编号  自增</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="954" parent="277" name="parentID">
+      <Position>2</Position>
+      <Comment>上级栏目编号	Menus表ID</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="955" parent="277" name="type">
+      <Position>3</Position>
+      <Comment>栏目类型</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="956" parent="277" name="text">
+      <Position>4</Position>
+      <Comment>栏目名称</Comment>
+      <DataType>varbinary(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="957" parent="277" name="url">
+      <Position>5</Position>
+      <Comment>栏目地址</Comment>
+      <DataType>varbinary(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="958" parent="277" name="tip">
+      <Position>6</Position>
+      <Comment>栏目提示语</Comment>
+      <DataType>varbinary(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="959" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="960" parent="278" name="ID">
+      <Position>1</Position>
+      <Comment>编号 自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="961" parent="278" name="RoleName">
+      <Position>2</Position>
+      <Comment>角色名称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="962" parent="278" name="RoleDesc">
+      <Position>3</Position>
+      <Comment>角色描述</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="963" parent="278" name="Disabled">
+      <Position>4</Position>
+      <Comment>禁用   1可使用 0已禁用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="964" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="965" parent="279" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="966" parent="279" name="RoleID">
+      <Position>2</Position>
+      <Comment>外键	对应角色表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="967" parent="279" name="MenuID">
+      <Position>3</Position>
+      <Comment>外键	对应栏目表ID</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="968" parent="279" name="FK_Reference_3">
+      <ColNames>RoleID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="969" parent="279" name="FK_Reference_4">
+      <ColNames>MenuID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="970" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="971" parent="279" name="FK_Reference_3">
+      <ColNames>RoleID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Roles</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="972" parent="279" name="FK_Reference_4">
+      <ColNames>MenuID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Menus</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="973" parent="280" name="ID">
+      <Position>1</Position>
+      <Comment>编号	自增</Comment>
+      <DataType>int(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="974" parent="280" name="Name">
+      <Position>2</Position>
+      <Comment>单位名称</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="975" parent="280" name="Remarks">
+      <Position>3</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="976" parent="280" name="OperatorID">
+      <Position>4</Position>
+      <Comment>操作人员	外键，对应到用户表编号</Comment>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="977" parent="280" name="OperationTime">
+      <Position>5</Position>
+      <Comment>操作时间	当前操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="978" parent="280" name="Stats">
+      <Position>6</Position>
+      <Comment>状态	0：正常，1：停用</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="979" parent="280" name="FK_Reference_7">
+      <ColNames>OperatorID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="980" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="981" parent="280" name="FK_Reference_7">
+      <ColNames>OperatorID</ColNames>
+      <RefSchemaName>logistics</RefSchemaName>
+      <RefTableName>SY_Emp</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
