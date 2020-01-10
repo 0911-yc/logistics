@@ -3,6 +3,7 @@ package com.xr.logistics.model;
 
 
 import java.io.Serializable;
+import java.util.Set;
 
 public class SyRoles implements Serializable {
 
@@ -12,7 +13,8 @@ public class SyRoles implements Serializable {
   private String roleDesc;
   private String disabled;
 
-
+// 当前角色的权限
+  private Set<SyMenus> menus;
   public Integer getId() {
     return id;
   }
@@ -48,4 +50,10 @@ public class SyRoles implements Serializable {
     this.disabled = disabled;
   }
 
+  public SyRoles(Integer id, String roleName, String roleDesc, String disabled) {
+    this.id = id;
+    this.roleName = roleName;
+    this.roleDesc = roleDesc;
+    this.disabled = disabled;
+  }
 }

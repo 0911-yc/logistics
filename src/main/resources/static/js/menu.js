@@ -9,7 +9,7 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '首页',
-            href: '/workbench',
+            href: '/getWorkbench',
             isCurrent: true
         }, {
             title: '收派标准',
@@ -78,15 +78,15 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '业务受理',
-            href: '/businessAcceptance',
+            href: 'acceptance/businessAcceptance.html',
             isCurrent: false
         }, {
             title: '工作单快速录入',
-            href: '/worksheetQuickInput',
+            href: 'acceptance/worksheetQuickInput.html',
             isCurrent: false
         }, {
             title: '工作单查询',
-            href: '/worksheetQuery',
+            href: 'acceptance/worksheetQuery.html',
             isCurrent: false
         }, ]
     }, {
@@ -96,23 +96,23 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '查台转单',
-            href: '/checkTable',
+            href: 'dispatch/checkTable.html',
             isCurrent: false
         }, {
             title: '人工调度',
-            href: '/manualScheduling',
+            href: 'dispatch/manualScheduling.html',
             isCurrent: false
         }, {
             title: '签收录入',
-            href: '/signInput G',
+            href: 'dispatch/signInput.html',
             isCurrent: false
         }, {
             title: '取消签收申请确认',
-            href: '/cancelSignApplicationConfirmation',
+            href: 'dispatch/cancelSignApplicationConfirmation.html',
             isCurrent: false
         }, {
             title: '宣传任务',
-            href: '/propagandaTask',
+            href: 'dispatch/propagandaTask.html',
             isCurrent: false
         }, ]
     }, {
@@ -122,15 +122,15 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '返货申请',
-            href: '/returnApply',
+            href: 'return/returnApply.html',
             isCurrent: false
         }, {
             title: '返货申请确认',
-            href: '/returnApplyConfirm',
+            href: 'return/returnApplyConfirm.html',
             isCurrent: false
         }, {
             title: '生成返货单',
-            href: '/returnInvoiceProduce',
+            href: 'return/returnInvoiceProduce.html',
             isCurrent: false
         }, ]
     }, {
