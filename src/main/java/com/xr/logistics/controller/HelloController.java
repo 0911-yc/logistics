@@ -6,91 +6,93 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-//    首页
+    //    首页
     @RequestMapping("/main")
-    public String main(){
+    public String main() {
         return "/pages/main";
     }
+
     //基础数据
     @RequestMapping("/workbrnch")
-    public String workbrnch(){
+    public String workbrnch() {
         return "/pages/workbench";
     }
+
     //登录
     @RequestMapping("/login")
-    public String login(){
+    public String login() {
         return "/pages/login";
     }
 
     //收派标准
     @RequestMapping("/deliveryStandard")
-    public String deliveryStandard(){
+    public String deliveryStandard() {
         return "/pages/basicData/deliveryStandard";
     }
 
     //基础档案
     @RequestMapping("/basicArchives")
-    public String basicArchives(){
+    public String basicArchives() {
         return "/pages/basicData/basicArchives";
     }
 
     //班车设置
     @RequestMapping("/shuttleBusSet")
-    public String shuttleBusSet(){
+    public String shuttleBusSet() {
         return "/pages/basicData/shuttleBusSet";
     }
 
     //取派员设置
     @RequestMapping("/dispatchingPersonnelSet")
-    public String dispatchingPersonnelSet(){
+    public String dispatchingPersonnelSet() {
         return "/pages/basicData/dispatchingPersonnelSet";
     }
 
     //区域设置
     @RequestMapping("/areaSet")
-    public String areaSet(){
+    public String areaSet() {
         return "/pages/basicData/areaSet";
     }
 
     //管理分区
     @RequestMapping("/partition")
-    public String partition(){
+    public String partition() {
         return "/pages/basicData/partition";
     }
 
     //管理定区
     @RequestMapping("/zone")
-    public String zone(){
+    public String zone() {
         return "/pages/basicData/zone";
     }
 
     //收派时间管理
     @RequestMapping("/deliveryTime")
-    public String deliveryTime(){
+    public String deliveryTime() {
         return "/pages/basicData/deliveryTime";
     }
 
     //单位管理
     @RequestMapping("/sysUnit")
-    public String sysUnit(){
+    public String sysUnit() {
         return "/pages/systemManagement/sysUnit";
     }
 
     //员工管理
     @RequestMapping("/sysEmp")
-    public String sysEmp(){
+    public String sysEmp() {
         return "/pages/systemManagement/sysEmp";
     }
 
     //栏目管理
     @RequestMapping("/sysMenu")
-    public String sysMenu(){
+    public String sysMenu() {
         return "/pages/systemManagement/sysMenu";
     }
 
     //角色管理
     @RequestMapping("/sysRole")
-    public String sysRole(){
+    public String sysRole() {
         return "/pages/systemManagement/sysRole";
     }
 }
