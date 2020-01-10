@@ -1,7 +1,6 @@
 package com.xr.logistics.model;
 
 
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -16,7 +15,7 @@ public class PacStock implements Serializable {
   private String drawerName;//开单人姓名
   private Date drawerTime;//开单时间
   private Integer produceTypeId;//
-  private String stats;//状态  0：正常，1：停用
+  private Boolean stats;//状态  0：正常，1：停用
   private String remark;//备注
 
   public String getWarehouseNo() {
@@ -91,14 +90,13 @@ public class PacStock implements Serializable {
   }
 
 
-  public String getStats() {
+  public Boolean getStats() {
     return stats;
   }
 
-  public void setStats(String stats) {
+  public void setStats(Boolean stats) {
     this.stats = stats;
   }
-
 
   public String getRemark() {
     return remark;

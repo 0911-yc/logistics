@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
+<<<<<<< Updated upstream
 //    首页
     @RequestMapping("/main")
     public String main(){
@@ -93,4 +94,25 @@ public class HelloController {
     public String sysRole(){
         return "/pages/systemManagement/sysRole";
     }
+=======
+    /**
+     * 系统管理
+     * @return
+     */
+    @RequestMapping("/main")
+    public String getmain(){
+        return "/pages/main";
+    }
+
+    /**
+     * 首页
+     * @return
+     */
+    @RequestMapping("/getworkbench")
+    public String getworkbench(){
+        System.out.println("进来了");
+        return "/pages/workbench";
+    }
+
+>>>>>>> Stashed changes
 }

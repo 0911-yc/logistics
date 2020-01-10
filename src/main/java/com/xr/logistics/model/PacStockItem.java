@@ -14,7 +14,7 @@ public class PacStockItem implements Serializable {
   private double plannedPrice;//计划价格
   private String specifications;//规格
   private String type;//类型
-  private String status;//状态  0.正常、1.作废
+  private Boolean status;//状态  0.正常、1.作废
 
   public Integer getId() {
     return id;
@@ -97,12 +97,11 @@ public class PacStockItem implements Serializable {
   }
 
 
-  public String getStatus() {
+  public Boolean getStatus() {
     return status;
   }
 
-  public void setStatus(String status) {
+  public void setStatus(Boolean status) {
     this.status = status;
   }
-
 }
