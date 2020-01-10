@@ -9,11 +9,7 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '首页',
-<<<<<<< Updated upstream
             href: '/workbrnch',
-=======
-            href: '/getworkbench',//调用HelloController中接口
->>>>>>> Stashed changes
             isCurrent: true
         }, {
             title: '收派标准',
@@ -144,7 +140,7 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '包装材料物品管理',
-            href: 'PacPackaging',//调用PacPackagingController中的接口
+            href: '/PacPackaging',
             isCurrent: false
         }, {
             title: '入库管理',
