@@ -8,4 +8,16 @@
     <select id="select" resultType="SorStorage">
        select SOR_Storage.ID,SOR_Storage.AcceptDate,a.EmpName,SOR_Storage.AcceptCompany,b.EmpName SorName,SOR_Storage.DeliveryCompany from SOR_Storage,SY_Emp a,SY_Emp b where SOR_Storage.AcceptPerson=a.ID and SOR_Storage.DeliveryPerson=b.ID
     </select>
+
+    <select id="findwhere" resultType="SorStorage">
+        select SOR_Storage.ID,SOR_Storage.AcceptDate,a.EmpName,SOR_Storage.AcceptCompany,b.EmpName SorName,SOR_Storage.DeliveryCompany from SOR_Storage,SY_Emp a,SY_Emp b where SOR_Storage.AcceptPerson=a.ID and SOR_Storage.DeliveryPerson=b.ID
+        <where>
+        <if test="ID!=null">
+            and SOR_Storage.ID like #{id}
+        </if>
+        <if test="AcceptDate!=null">
+            and SOR_Storage.AcceptDate like #{AcceptDate}
+        </if>
+        </where>
+    </select>
 </mapper>
