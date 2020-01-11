@@ -29,11 +29,38 @@ public class PacPackagingController {
     }
 
     /**
-     * 增加的页面
+     * 包装材料物品管理增加的页面
      * @return
      */
     @RequestMapping("/packagingMaterialManagementadd")
     public String packagingMaterialManagementadd(){
         return "/pages/packagingMaterialManagement/packagingMaterialManagement_add";
+    }
+
+    /**
+     * 入库管理
+     * @return
+     */
+    @RequestMapping("/warehousingManagement")
+    public String warehousingManagement(){
+        return "/pages/packagingMaterialManagement/warehousingManagement";
+    }
+
+    /**
+     * 出库管理
+     * @return
+     */
+    @RequestMapping("/outboundManagement")
+    public String outboundManagement(){
+        return "/pages/packagingMaterialManagement/outboundManagement";
+    }
+
+    /**
+     * 库存管理
+     * @return
+     */
+    @RequestMapping("/inventoryManagement")
+    public String inventoryManagement(){
+        return "/pages/packagingMaterialManagement/inventoryManagement";
     }
 }

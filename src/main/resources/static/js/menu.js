@@ -144,15 +144,15 @@ var SystemMenu = [{
             isCurrent: false
         }, {
             title: '入库管理',
-            href: 'packagingMaterialManagement/warehousingManagement.html',
+            href: '/warehousingManagement',
             isCurrent: false
         }, {
             title: '出库管理',
-            href: 'packagingMaterialManagement/outboundManagement.html',
+            href: '/outboundManagement',
             isCurrent: false
         }, {
             title: '库存管理',
-            href: 'packagingMaterialManagement/inventoryManagement.html',
+            href: '/inventoryManagement',
             isCurrent: false
         }, ]
     }, {
