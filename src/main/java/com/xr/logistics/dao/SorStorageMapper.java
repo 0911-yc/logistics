@@ -9,4 +9,6 @@ import java.util.Map;
 @Repository
 public interface SorStorageMapper {
     public List<SorStorage> select();
+
+    public List<Map<String,Object>> findwhere(SorStorage sorStorage);
 }

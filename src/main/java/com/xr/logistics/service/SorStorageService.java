@@ -8,4 +8,5 @@ import java.util.Map;
 public interface SorStorageService {
     public List<SorStorage> select();
 
+    public List<Map<String,Object>> findwhere(SorStorage sorStorage);
 }

@@ -19,4 +19,9 @@ public class SorStorageServiceImpl implements SorStorageService {
         return sorStorageMapper.select();
     }
 
+    @Override
+    public List<Map<String, Object>> findwhere(SorStorage sorStorage) {
+        return null;
+    }
+
 }
