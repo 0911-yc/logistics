@@ -13,7 +13,7 @@ public class PacStock {
   private String drawerName;
   private Date drawerTime;
   private Integer produceTypeId;
-  private String stats;
+  private boolean stats;
   private String remark;
 
 
@@ -88,15 +88,13 @@ public class PacStock {
     this.produceTypeId = produceTypeId;
   }
 
-
-  public String getStats() {
+  public boolean isStats() {
     return stats;
   }
 
-  public void setStats(String stats) {
+  public void setStats(boolean stats) {
     this.stats = stats;
   }
-
 
   public String getRemark() {
     return remark;

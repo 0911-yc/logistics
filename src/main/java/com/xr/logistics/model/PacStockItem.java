@@ -12,7 +12,7 @@ public class PacStockItem {
   private double plannedPrice;
   private String specifications;
   private String type;
-  private String status;
+  private boolean status;
 
 
   public Integer getId() {
@@ -95,13 +95,11 @@ public class PacStockItem {
     this.type = type;
   }
 
-
-  public String getStatus() {
+  public boolean isStatus() {
     return status;
   }
 
-  public void setStatus(String status) {
+  public void setStatus(boolean status) {
     this.status = status;
   }
-
 }

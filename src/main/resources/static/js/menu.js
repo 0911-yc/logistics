@@ -9,7 +9,7 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '首页',
-            href: '/getWorkbench',
+            href: '/workbrnch',
             isCurrent: true
         }, {
             title: '收派标准',
@@ -17,31 +17,31 @@ var SystemMenu = [{
             isCurrent: false
         }, {
             title: '基础档案',
-            href: 'basicData/basicArchives.html',
+            href: '/basicArchives',
             isCurrent: false
         }, {
             title: '班车设置',
-            href: 'basicData/shuttleBusSet.html',
+            href: '/shuttleBusSet',
             isCurrent: false
         }, {
             title: '取派员设置',
-            href: 'basicData/dispatchingPersonnelSet.html',
+            href: '/dispatchingPersonnelSet',
             isCurrent: false
         }, {
             title: '区域设置',
-            href: 'basicData/areaSet.html',
+            href: '/areaSet',
             isCurrent: false
         }, {
             title: '管理分区',
-            href: 'basicData/partition.html',
+            href: '/partition',
             isCurrent: false
         }, {
             title: '管理定区',
-            href: '/queryZoneInfo',
+            href: '/zone',
             isCurrent: false
         }, {
             title: '收派时间管理',
-            href: 'basicData/deliveryTime.html',
+            href: '/deliveryTime',
             isCurrent: false
         }, ]
     }, {
@@ -51,19 +51,19 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '单位管理',
-            href: 'systemManagement/sysUnit.html',
+            href: '/sysUnit',
             isCurrent: false
         }, {
             title: '员工管理',
-            href: 'systemManagement/sysEmp.html',
+            href: '/sysEmp',
             isCurrent: false
         }, {
             title: '栏目管理',
-            href: 'systemManagement/sysMenu.html',
+            href: '/sysMenu',
             isCurrent: false
         }, {
             title: '角色管理',
-            href: 'systemManagement/sysRole.html',
+            href: '/sysRole',
             isCurrent: false
         }, ]
     }, ]
@@ -78,15 +78,15 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '业务受理',
-            href: 'acceptance/businessAcceptance.html',
+            href: '/businessAcceptance',
             isCurrent: false
         }, {
             title: '工作单快速录入',
-            href: 'acceptance/worksheetQuickInput.html',
+            href: '/worksheetQuickInput',
             isCurrent: false
         }, {
             title: '工作单查询',
-            href: 'acceptance/worksheetQuery.html',
+            href: '/worksheetQuery',
             isCurrent: false
         }, ]
     }, {
@@ -96,23 +96,23 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '查台转单',
-            href: 'dispatch/checkTable.html',
+            href: '/checkTable',
             isCurrent: false
         }, {
             title: '人工调度',
-            href: 'dispatch/manualScheduling.html',
+            href: '/manualScheduling',
             isCurrent: false
         }, {
             title: '签收录入',
-            href: 'dispatch/signInput.html',
+            href: '/signInput',
             isCurrent: false
         }, {
             title: '取消签收申请确认',
-            href: 'dispatch/cancelSignApplicationConfirmation.html',
+            href: '/cancelSignApplicationConfirmation',
             isCurrent: false
         }, {
             title: '宣传任务',
-            href: 'dispatch/propagandaTask.html',
+            href: '/propagandaTask',
             isCurrent: false
         }, ]
     }, {
@@ -122,15 +122,15 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '返货申请',
-            href: 'return/returnApply.html',
+            href: '/returnApply',
             isCurrent: false
         }, {
             title: '返货申请确认',
-            href: 'return/returnApplyConfirm.html',
+            href: '/returnApplyConfirm',
             isCurrent: false
         }, {
             title: '生成返货单',
-            href: 'return/returnInvoiceProduce.html',
+            href: '/returnInvoiceProduce',
             isCurrent: false
         }, ]
     }, {
@@ -140,7 +140,7 @@ var SystemMenu = [{
         isCurrent: false,
         children: [{
             title: '包装材料物品管理',
-            href: 'packagingMaterialManagement/packagingMaterialManagement.html',
+            href: '/PacPackaging',
             isCurrent: false
         }, {
             title: '入库管理',
@@ -191,11 +191,11 @@ var SystemMenu = [{
         isCurrent: true,
         children: [{
             title: '入库',
-            href: 'sortingManagement/storage.html',
+            href: '/Storage',
             isCurrent: false
         }, {
             title: '出库',
-            href: 'sortingManagement/theLibrary.html',
+            href: '/TheLibrary',
             isCurrent: false
         }, {
             title: '盘库',

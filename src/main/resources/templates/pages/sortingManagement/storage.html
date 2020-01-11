@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -22,20 +23,20 @@
                 <div class="layui-inline">
                     <label class="layui-form-label">入库交接单:</label>
                     <div class="layui-input-block" style="width: 150px;">
-                        <input type="text" name="title" placeholder="入库交接单号" autocomplete="off" class="layui-input">
+                        <input id="input_id" type="text" name="title" placeholder="入库交接单号" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 
                 <div class="layui-inline">
-                    <label class="layui-form-label" >接货时间:</label>
+                    <label class="layui-form-label">接货时间:</label>
                     <div class="layui-input-block" style="width: 150px;">
-                        <input type="text" name="title" placeholder="请输入接货时间" autocomplete="off" class="layui-input">
+                        <input id="input_time" type="text" name="title" placeholder="请输入接货时间" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 
                 <!-- 查询按钮组 -->
                 <div class="layui-inline">
-                    <button type="button" class="layui-btn btnQuery">
+                    <button id="SorWhere" type="button" class="layui-btn btnQuery">
                         <i class="layui-icon">&#xe615;</i> 查询
                     </button>
 
@@ -56,28 +57,32 @@
                     <div class="layui-inline">
                         <label class="layui-form-label">接货人:</label>
                         <div class="layui-input-block" style="width: 150px;">
-                            <input type="text" name="title" placeholder="接货人（接方经手人）" autocomplete="off" class="layui-input">
+                            <input type="text" name="title" placeholder="接货人（接方经手人）" autocomplete="off"
+                                   class="layui-input">
                         </div>
                     </div>
 
                     <div class="layui-inline">
                         <label class="layui-form-label">接收单位:</label>
                         <div class="layui-input-block" style="width: 150px;">
-                            <input type="text" name="title" placeholder="接收单位（接方单位）" autocomplete="off" class="layui-input">
+                            <input type="text" name="title" placeholder="接收单位（接方单位）" autocomplete="off"
+                                   class="layui-input">
                         </div>
                     </div>
 
                     <div class="layui-inline">
                         <label class="layui-form-label">发货人</label>
                         <div class="layui-input-block" style="width: 150px;">
-                            <input type="text" name="title" placeholder="发货人（交方经手人）" autocomplete="off" class="layui-input">
+                            <input type="text" name="title" placeholder="发货人（交方经手人）" autocomplete="off"
+                                   class="layui-input">
                         </div>
                     </div>
 
                     <div class="layui-inline">
                         <label class="layui-form-label">发货单位</label>
                         <div class="layui-input-block" style="width: 150px;">
-                            <input type="text" name="title" placeholder="发货单位（交方单位）" autocomplete="off" class="layui-input">
+                            <input type="text" name="title" placeholder="发货单位（交方单位）" autocomplete="off"
+                                   class="layui-input">
                         </div>
                     </div>
 
@@ -119,7 +124,8 @@
             <div class="layui-form-item" style="padding-left: 11px;height: 30px;">
                 <div class="layui-inline">
                     <button type="button" class="layui-btn layui-btn-small btnQuery" id="opAdd">新增入库</button>
-                    <button type="button" class="layui-btn layui-btn-small btnQuery" id="opAddExceptionRecord">新增异常记录</button>
+                    <button type="button" class="layui-btn layui-btn-small btnQuery" id="opAddExceptionRecord">新增异常记录
+                    </button>
                     <button type="button" class="layui-btn layui-btn-small btnOther" id="opEdit">修改</button>
                     <button type="button" class="layui-btn layui-btn-small btnOther" id="opDelete">删除</button>
                 </div>
@@ -141,7 +147,7 @@
                 <thead>
                 <tr>
                     <th><input type="checkbox" name="check" lay-skin="primary"></th>
-                    <th>序号</th>
+                    <!--<th>序号</th>-->
                     <th>入库交接单号</th>
                     <th>接货时间</th>
                     <th>接货人</th>
@@ -152,21 +158,23 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
+                <tr th:each="sorStorage:${sorStorages}">
                     <td><input type="checkbox" name="check" lay-skin="primary"></td>
-                    <td>1</td>
-                    <td>JJD1001</td>
-                    <td>2017-11-11 11:11:11</td>
-                    <td>老王</td>
-                    <td>长沙分部</td>
-                    <td>老张</td>
-                    <td>深圳分部</td>
+                    <!--<td>1</td>-->
+                    <td th:text="${sorStorage.id}"></td>
+                    <td th:text="${#dates.format(sorStorage.acceptDate,'yyyy-MM-dd HH:mm:ss')}"></td>
+                    <td th:text="${sorStorage.empName}"></td>
+                    <td th:text="${sorStorage.acceptCompany}"></td>
+                    <td th:text="${sorStorage.sorName}"></td>
+                    <td th:text="${sorStorage.deliveryCompany}"></td>
                     <td>
-                        <button type="button" class="layui-btn layui-btn-small btnQuery" id="opQueryDetail">查看明细</button>
+                        <button type="button" class="layui-btn layui-btn-small btnQuery" id="opQueryDetail">查看明细
+                        </button>
                     </td>
                 </tr>
                 </tbody>
             </table>
+        </form>
     </div>
     </form>
 </div>
@@ -200,7 +208,17 @@
             $("#hQuery").toggle();
         });
 
+        $('#SorWhere').click(function () {
+            var testInput = $('#input_id').val();
+            var testInputTwo = $('#input_time').val();
 
+            var a1=testInput == '' || testInput == undefined || testInput == null;
+            var a2=testInputTwo == '' || testInputTwo == undefined || testInputTwo == null;
+
+            if (a1 && a2) {
+                layer.msg("请输入入库交接单号 或 接货时间 进行查询！");
+            }
+        })
 
 
         //修改

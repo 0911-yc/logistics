@@ -11,7 +11,24 @@ public class SorStorage {
   private String acceptCompany;
   private Integer deliveryPerson;
   private String deliveryCompany;
+  private String EmpName;
+  private String SorName;
 
+  public String getSorName() {
+    return SorName;
+  }
+
+  public void setSorName(String sorName) {
+    SorName = sorName;
+  }
+
+  public String getEmpName() {
+    return EmpName;
+  }
+
+  public void setEmpName(String empName) {
+    EmpName = empName;
+  }
 
   public Integer getId() {
     return id;

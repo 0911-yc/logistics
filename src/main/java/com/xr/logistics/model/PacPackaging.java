@@ -14,7 +14,7 @@ public class PacPackaging implements Serializable {
   private String specifications;//规格
   private String type;//类型
   private String measurementUnit;//计量单位
-  private String status;//状态
+  private boolean status;//状态
   private Integer operatorId;//操作人工号
   private Integer operationUnitId;//操作人姓名
   private Date operationTime;//操作时间
@@ -86,14 +86,13 @@ public class PacPackaging implements Serializable {
   }
 
 
-  public String getStatus() {
+  public boolean isStatus() {
     return status;
   }
 
-  public void setStatus(String status) {
+  public void setStatus(boolean status) {
     this.status = status;
   }
-
 
   public Integer getOperatorId() {
     return operatorId;
