@@ -1,21 +1,23 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BiglogLogisticsControlTable {
+public class BiglogLogisticsControlTable implements Serializable {
 
-  private Integer id;
-  private String workSheetNo;
-  private String cType;
-  private String corporation;
-  private String waybillId;
-  private String remarks;
-  private Integer inputPerson;
-  private Date inputDate;
-  private Integer inputCompany;
-  private String stats;
-
+  private static final long serialVersionUID = -2866982558599212230L;
+  private Integer id;//编号
+  private String workSheetNo;//工作单号
+  private String cType;//类型
+  private String corporation;//代理公司
+  private String waybillId;//货票号
+  private String remarks;//备注
+  private Integer inputPerson;//录入人
+  private Date inputDate;//录入时间
+  private Integer inputCompany;//录入单位
+  private String stats;//状态  0：正常，1：停用
 
   public Integer getId() {
     return id;

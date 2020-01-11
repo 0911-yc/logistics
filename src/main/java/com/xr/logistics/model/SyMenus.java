@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class SyMenus {
 
+import java.io.Serializable;
+
+public class SyMenus implements Serializable {
+
+  private static final long serialVersionUID = 475395341432128193L;
   private Integer id;
   private String parentId;
   private String type;

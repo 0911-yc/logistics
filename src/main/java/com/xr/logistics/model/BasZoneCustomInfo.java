@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasZoneCustomInfo {
 
+import java.io.Serializable;
+
+public class BasZoneCustomInfo implements Serializable {
+
+  private static final long serialVersionUID = 5959349485194038307L;
   private Integer customCode;
   private String customName;
   private Integer mobileNo;

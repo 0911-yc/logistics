@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class SyRolesMenus {
 
+import java.io.Serializable;
+
+public class SyRolesMenus implements Serializable {
+
+  private static final long serialVersionUID = 9060375485302486488L;
   private Integer id;
   private Integer roleId;
   private Integer menuId;

@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class SorPackageDetails {
+public class SorPackageDetails implements Serializable {
 
+  private static final long serialVersionUID = -6045384211854568055L;
   private Integer id;
   private Integer wareName;
   private String destination;

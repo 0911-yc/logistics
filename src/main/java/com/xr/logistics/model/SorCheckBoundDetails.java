@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class SorCheckBoundDetails {
+public class SorCheckBoundDetails implements Serializable {
 
+  private static final long serialVersionUID = 116862838529589004L;
   private Integer id;
   private Integer cargoCount;
   private double weight;

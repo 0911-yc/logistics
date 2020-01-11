@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class AccWorkOrder {
+public class AccWorkOrder implements Serializable {
 
+  private static final long serialVersionUID = 8009309984765751157L;
   private Integer id;
   private String jobNo;
   private String jobType;

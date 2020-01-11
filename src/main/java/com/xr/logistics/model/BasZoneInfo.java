@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasZoneInfo {
 
+import java.io.Serializable;
+
+public class BasZoneInfo implements Serializable {
+
+  private static final long serialVersionUID = -3820671430862300947L;
   private String zoneName;
   private String zoneCode;
   private Integer zonePeople;

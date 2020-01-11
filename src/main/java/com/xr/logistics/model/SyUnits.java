@@ -1,10 +1,11 @@
 package com.xr.logistics.model;
 
-
+import java.io.Serializable;
 import java.util.Date;
 
-public class SyUnits {
+public class SyUnits implements Serializable {
 
+  private static final long serialVersionUID = 4076604696591350901L;
   private Integer id;
   private String name;
   private String remarks;

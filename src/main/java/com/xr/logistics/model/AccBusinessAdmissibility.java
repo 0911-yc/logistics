@@ -1,10 +1,12 @@
 package com.xr.logistics.model;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class AccBusinessAdmissibility {
+public class AccBusinessAdmissibility implements Serializable {
 
+  private static final long serialVersionUID = -5438386560882011626L;
   private String businessNoticeNo;
   private Date reservationTime;
   private String customName;

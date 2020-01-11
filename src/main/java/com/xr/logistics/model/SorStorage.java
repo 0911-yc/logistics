@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class SorStorage {
+public class SorStorage implements Serializable {
 
+  private static final long serialVersionUID = -2872340149096694469L;
   private Integer id;
   private Date acceptDate;
   private Integer acceptPerson;

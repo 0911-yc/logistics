@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasPartition {
 
+import java.io.Serializable;
+
+public class BasPartition implements Serializable {
+
+  private static final long serialVersionUID = -6303171782215951112L;
   private Integer id;
   private String province;
   private String city;

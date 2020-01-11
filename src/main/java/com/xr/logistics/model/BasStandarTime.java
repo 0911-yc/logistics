@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BasStandarTime {
+public class BasStandarTime implements Serializable {
 
+  private static final long serialVersionUID = 5397124660315024811L;
   private Integer id;
   private String timeName;
   private Integer subordinateUnit;

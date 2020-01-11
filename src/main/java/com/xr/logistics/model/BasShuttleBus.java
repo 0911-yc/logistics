@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BasShuttleBus {
+public class BasShuttleBus implements Serializable {
 
+  private static final long serialVersionUID = -1698998539644218566L;
   private Integer id;
   private String lineType;
   private Integer lineId;

@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BasDeliveryStandard {
+public class BasDeliveryStandard implements Serializable {
 
+  private static final long serialVersionUID = -2044544916457309403L;
   private String basicFileNumber;
   private String name;
   private double minWeight;

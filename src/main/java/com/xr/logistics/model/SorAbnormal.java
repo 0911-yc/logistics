@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class SorAbnormal {
+public class SorAbnormal implements Serializable {
 
+  private static final long serialVersionUID = 8565513178633285973L;
   private Integer id;
   private Date launchDate;
   private String launchPerson;

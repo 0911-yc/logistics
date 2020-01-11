@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class AccProductType {
 
+import java.io.Serializable;
+
+public class AccProductType implements Serializable {
+
+  private static final long serialVersionUID = -3144249711764100051L;
   private Integer id;
   private String produceType;
 

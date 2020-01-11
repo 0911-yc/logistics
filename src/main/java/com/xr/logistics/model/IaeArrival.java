@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class IaeArrival {
+public class IaeArrival implements Serializable {
 
+  private static final long serialVersionUID = 3755545682260986490L;
   private String id;
   private String sendCompany;
   private String cargoAddress;

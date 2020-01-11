@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class AccDocumentsState {
 
+import java.io.Serializable;
+
+public class AccDocumentsState implements Serializable {
+
+  private static final long serialVersionUID = -6297856255617448330L;
   private Integer id;
   private String documentsState;
 

@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class IaeLineResource {
+public class IaeLineResource implements Serializable {
 
+  private static final long serialVersionUID = -2198910857112178219L;
   private String id;
   private String resourceType;
   private String port;

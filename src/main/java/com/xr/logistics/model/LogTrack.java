@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class LogTrack {
+public class LogTrack implements Serializable {
 
+  private static final long serialVersionUID = -8391355814446427235L;
   private Integer id;
   private String lineType;
   private String lineName;

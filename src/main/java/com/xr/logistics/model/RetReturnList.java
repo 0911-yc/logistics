@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class RetReturnList {
+public class RetReturnList implements Serializable {
 
+  private static final long serialVersionUID = -7600192231371317250L;
   private Integer id;
   private String applicationNo;
   private String workSheetNo;

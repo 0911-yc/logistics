@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class LogLogistics {
 
+import java.io.Serializable;
+
+public class LogLogistics implements Serializable {
+
+  private static final long serialVersionUID = -5665809290658756825L;
   private Integer id;
   private String logisticsInt;
   private String lineName;

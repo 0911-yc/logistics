@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class DisPropagandaTask {
+public class DisPropagandaTask implements Serializable {
 
+  private static final long serialVersionUID = 4080118435010037719L;
   private Integer id;
   private String outline;
   private Date releaseTime;

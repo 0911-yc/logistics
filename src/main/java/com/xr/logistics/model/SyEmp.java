@@ -1,8 +1,13 @@
 package com.xr.logistics.model;
 
 
-public class SyEmp {
 
+import java.io.Serializable;
+import java.util.Set;
+
+public class SyEmp implements Serializable {
+
+  private static final long serialVersionUID = -8873558970747658765L;
   private Integer id;
   private String empName;
   private String empNo;
@@ -13,6 +18,25 @@ public class SyEmp {
   private String remark;
   private String disabled;
 
+//  一对多权限
+  private Set<SyRoles> roles;
+  private Set<SyMenus> menus;
+
+  public Set<SyRoles> getRoles() {
+    return roles;
+  }
+
+  public void setRoles(Set<SyRoles> roles) {
+    this.roles = roles;
+  }
+
+  public Set<SyMenus> getMenus() {
+    return menus;
+  }
+
+  public void setMenus(Set<SyMenus> menus) {
+    this.menus = menus;
+  }
 
   public Integer getId() {
     return id;
@@ -94,4 +118,15 @@ public class SyEmp {
     this.disabled = disabled;
   }
 
+  public SyEmp(Integer id, String empName, String empNo, String pwd, String queryPwd, Integer roleId, Integer empUnit, String remark, String disabled) {
+    this.id = id;
+    this.empName = empName;
+    this.empNo = empNo;
+    this.pwd = pwd;
+    this.queryPwd = queryPwd;
+    this.roleId = roleId;
+    this.empUnit = empUnit;
+    this.remark = remark;
+    this.disabled = disabled;
+  }
 }

@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasSubstitute {
 
+import java.io.Serializable;
+
+public class BasSubstitute implements Serializable {
+
+  private static final long serialVersionUID = 8372629190910663066L;
   private Integer id;
   private String empNo;
   private String empName;

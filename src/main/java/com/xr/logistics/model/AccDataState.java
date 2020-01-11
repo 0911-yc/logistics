@@ -1,7 +1,10 @@
 package com.xr.logistics.model;
 
 
-public class AccDataState {
+
+import java.io.Serializable;
+public class AccDataState implements Serializable {
+  private static final long serialVersionUID = 1713971148991853128L;
 
   private Integer id;
   private String dataState;

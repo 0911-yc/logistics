@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class AccWorkSheet {
+public class AccWorkSheet implements Serializable {
 
+  private static final long serialVersionUID = 4043646701558715712L;
   private Integer id;
   private String workSheetNo;
   private String destination;

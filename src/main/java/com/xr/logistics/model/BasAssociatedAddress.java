@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasAssociatedAddress {
 
+import java.io.Serializable;
+
+public class BasAssociatedAddress implements Serializable {
+
+  private static final long serialVersionUID = -7182704446001657185L;
   private Integer id;
   private String zoneName;
   private String city;

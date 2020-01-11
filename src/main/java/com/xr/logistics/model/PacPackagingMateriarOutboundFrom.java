@@ -8,17 +8,17 @@ public class PacPackagingMateriarOutboundFrom implements Serializable {
 
   private static final long serialVersionUID = 5394902672625355749L;
   private Integer id;//编号
-  private String outboundNumber;
-  private Integer outboundType;
-  private String transportSlip;
-  private Integer affiliatedUnit;
-  private Integer issuedByTheUnit;
-  private Integer operator;
-  private Integer clienter;
-  private Integer recipient;
-  private Date recipientsTime;
-  private Integer single;
-  private Date orderTime;
+  private String outboundNumber;//出库单号
+  private Integer outboundType;//出库类型
+  private String transportSlip;//运输单号
+  private Integer affiliatedUnit;//所属单位
+  private Integer issuedByTheUnit;//下发单位
+  private Integer operator;//经办人
+  private Integer clienter;//客户
+  private Integer recipient;//领用人
+  private Date recipientsTime;//领用时间
+  private Integer single;//开单人
+  private Date orderTime;//开单时间
 
 
   public Integer getId() {

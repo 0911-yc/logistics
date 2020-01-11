@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class LogLogisticsTransfer {
+public class LogLogisticsTransfer implements Serializable {
 
+  private static final long serialVersionUID = 9197650394913884613L;
   private Integer id;
   private String transferInt;
   private String startStation;

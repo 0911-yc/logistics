@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class SorStorageDetails {
 
+import java.io.Serializable;
+
+public class SorStorageDetails implements Serializable {
+
+  private static final long serialVersionUID = 37628926717146541L;
   private Integer id;
   private String packageId;
   private double weight;

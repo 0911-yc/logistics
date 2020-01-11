@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BasAssociateMember {
+public class BasAssociateMember implements Serializable {
 
+  private static final long serialVersionUID = -9040410279833008618L;
   private Integer id;
   private String zoneName;
   private String empNo;

@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class DisWorkOrderSign {
+public class DisWorkOrderSign implements Serializable {
 
+  private static final long serialVersionUID = 7077507680143764312L;
   private Integer id;
   private Integer workOrderId;
   private String workSheetNo;

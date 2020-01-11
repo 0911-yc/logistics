@@ -1,8 +1,12 @@
 package com.xr.logistics.model;
 
 
-public class BasArea {
 
+import java.io.Serializable;
+
+public class BasArea implements Serializable {
+
+  private static final long serialVersionUID = -2974534846076073547L;
   private Integer id;
   private String province;
   private String city;

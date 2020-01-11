@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class IaeTimeInput {
+public class IaeTimeInput implements Serializable {
 
+  private static final long serialVersionUID = -5290179239047212998L;
   private Integer id;
   private String inputType;
   private String port;

@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class SorOutBound {
+public class SorOutBound implements Serializable {
 
+  private static final long serialVersionUID = 5719913708080277535L;
   private String outBoundId;
   private String handoverType;
   private String line;

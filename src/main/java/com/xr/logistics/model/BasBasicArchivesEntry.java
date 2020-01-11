@@ -1,10 +1,13 @@
 package com.xr.logistics.model;
 
 
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class BasBasicArchivesEntry {
+public class BasBasicArchivesEntry implements Serializable {
 
+  private static final long serialVersionUID = 826854772459584965L;
   private Integer id;
   private String name;
   private Integer parentId;
