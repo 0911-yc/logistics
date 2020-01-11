@@ -1,8 +1,11 @@
 package com.xr.logistics.model;
 
 
-public class PacStockItem {
+import java.io.Serializable;
 
+public class PacStockItem implements Serializable{
+
+  private static final long serialVersionUID = -9117371806535375319L;
   private Integer id;
   private String warehouseNo;
   private String goodsCode;
