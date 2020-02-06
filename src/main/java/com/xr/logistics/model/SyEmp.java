@@ -124,4 +124,21 @@ public class SyEmp implements Serializable {
   public void setDisabled(int disabled) {
     this.disabled = disabled;
   }
+
+    public SyEmp(Integer id, String empName, String empNo, String pwd, String queryPwd, Integer roleId, Integer empUnit, String remark, int disabled, String account, Set<SyRoles> roles, Set<SyMenus> menus) {
+        this.id = id;
+        this.empName = empName;
+        this.empNo = empNo;
+        this.pwd = pwd;
+        this.queryPwd = queryPwd;
+        this.roleId = roleId;
+        this.empUnit = empUnit;
+        this.remark = remark;
+        this.disabled = disabled;
+        this.account = account;
+        this.roles = roles;
+        this.menus = menus;
+    }
+
+
 }

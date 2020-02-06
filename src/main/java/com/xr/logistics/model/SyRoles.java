@@ -50,10 +50,11 @@ public class SyRoles implements Serializable {
     this.disabled = disabled;
   }
 
-  public SyRoles(Integer id, String roleName, String roleDesc, String disabled) {
-    this.id = id;
-    this.roleName = roleName;
-    this.roleDesc = roleDesc;
-    this.disabled = disabled;
+  public Set<SyMenus> getMenus() {
+    return menus;
+  }
+
+  public void setMenus(Set<SyMenus> menus) {
+    this.menus = menus;
   }
 }
